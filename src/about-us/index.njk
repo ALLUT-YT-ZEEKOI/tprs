@@ -1,0 +1,76 @@
+---
+layout: layouts/page.njk
+title: About Us
+description: TPRS Glass is a trusted leader in the glass industry with over three decades of expertise, delivering innovative and standardized glass solutions across
+_DESCRIPTION_NOTE: "Live site's <meta name=description> literally cuts off mid-sentence at ~156 chars with no ellipsis (Yoast-style truncation bug) — ported verbatim rather than completing the sentence."
+pageTitle: About TPRS
+pageSubtitle: Trusted Leader in the Glass Industry
+heroImage: /assets/img/about/about-us-hero.jpg
+_HERO_IMAGE_NOTE: "Live source's slider_revolution background for /about-us/ is wp-content/uploads/2025/12/vision.jpg — a filename that suggests it was meant for the Vision & Mission page (which itself uses a different image, WEBsite-banner-factory.jpg). Porting the live site's actual (seemingly mismatched) image assignment as-is rather than 'fixing' it."
+breadcrumbTrail:
+  - label: About TPRS
+  - label: About Us
+extraCss:
+  - /assets/css/pages/inner-page.css
+  - /assets/css/pages/about.css
+extraJs:
+  - /assets/js/counters.js
+---
+{% from "partials/stat-counters.njk" import statCounters %}
+{% from "partials/timeline.njk" import timeline %}
+
+<section class="section">
+  <div class="container">
+    <div class="prose reveal" data-reveal>
+      <p>TPRS Glass is a trusted leader in the glass industry with over three decades of expertise, delivering innovative and standardized glass solutions across diverse sectors such as Architecture, Automotive, Vertical Mobility, White Goods, Locomotive, Refrigeration, Earthmovers, Marine, and Engineering.</p>
+      <p>Built on the TREE values of Transparency, Responsibility, Efficiency, and Empowerment, TPRS stands apart through its strong commitment to sustainability, innovation, and excellence.</p>
+      <p>TPRS Glass holds both domestic and international certifications, creating a perfect blend of advanced technology and unparalleled industry standards to meet the demands of today while remaining committed to sustainability and customer satisfaction.</p>
+    </div>
+  </div>
+</section>
+
+<section class="section bg-alt">
+  <div class="container">
+    {{ statCounters([
+      { "value": 2000, "suffix": "+", "label": "People" },
+      { "value": 30, "label": "Years" },
+      { "value": 7, "label": "Manufacturing Locations" }
+    ]) }}
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="milestones-head reveal" data-reveal>
+      <h2>Key Milestones</h2>
+      <p>Discover TPRS Group&rsquo;s remarkable journey, from its inception in 1993 to becoming a pioneer in the glass processing industry, upholding global quality standards and contributing to prestigious projects.</p>
+    </div>
+    {{ timeline([
+      { "number": "01.", "year": "2025", "text": "DOT certification, QNL certification from Kuraray" },
+      { "number": "02.", "year": "2024", "text": "Dow Quality Bond certification for Structural Glazing" },
+      { "number": "03.", "year": "2022", "text": "Started Unit 5" },
+      { "number": "04.", "year": "2017", "text": "IATF 16949 : 2016, AS Certification" },
+      { "number": "05.", "year": "2016", "text": "Started TPRS (Unit 3)" },
+      { "number": "06.", "year": "2013", "text": "CE Certification and Dow quality Bond with DowSIL for Insulated Glass Unit" },
+      { "number": "07.", "year": "2009", "text": "ISI Part 1 and Part 2, IS 9001:2008 & TS 16949:2009, COP certifications" },
+      { "number": "08.", "year": "2007", "text": "ISO 9001:2000, E Mark" },
+      { "number": "09.", "year": "2005", "text": "Started TPRS (Unit 1)" },
+      { "number": "10.", "year": "2004", "text": "Started L.R.M (Unit 4)" },
+      { "number": "11.", "year": "2000", "text": "Started Pondy Safety Glass (Unit-2)" },
+      { "number": "12.", "year": "1995", "text": "Started Triplex" }
+    ]) }}
+  </div>
+</section>
+
+<section class="section bg-alt">
+  <div class="container">
+    <div class="why-tprs reveal" data-reveal>
+      <div>
+        <p class="eyebrow">Empowering Excellence</p>
+        <h2>Why TPRS?</h2>
+      </div>
+      <p class="why-tprs__text">TPRS&rsquo;s capabilities are versatile and dynamic, always ready to adapt to the changing demands of the market, therefore, helping our clients leverage new opportunities as they emerge.</p>
+      <a href="/quality-and-certification/" class="btn btn--primary">Our Certifications</a>
+    </div>
+  </div>
+</section>

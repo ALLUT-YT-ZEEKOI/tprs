@@ -1,0 +1,80 @@
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>{% if title %}{{ title }} | {{ site.titleSuffix }}{% else %}{{ site.titleSuffix }}{% endif %}</title>
+<meta name="description" content="{{ description or site.name }}" />
+<link rel="canonical" href="{{ site.url }}{{ page.url }}" />
+
+<link rel="icon" href="/assets/img/favicon/favicon-192.png" sizes="192x192" />
+<link rel="apple-touch-icon" href="/assets/img/favicon/apple-touch-icon-180.png" />
+
+<link rel="preload" href="/assets/fonts/outfit-variable-latin.woff2" as="font" type="font/woff2" crossorigin />
+{% set preloadImage = heroImage %}
+{% if page.url == "/" %}{% set preloadImage = home.hero.poster %}{% endif %}
+{% if solutionKey %}{% set preloadImage = solutions[solutionKey].heroImage %}{% endif %}
+{% if industryKey %}{% set preloadImage = industries[industryKey].heroImage %}{% endif %}
+{% if postSlug %}{% set preloadImage = (posts | findBySlug(postSlug)).image %}{% endif %}
+{% if projectKey %}{% set preloadImage = projects[projectKey].coverImage %}{% endif %}
+{% if preloadImage %}
+<!-- preload the webp variant, not the jpg/png original — the templates that
+     render these images (bgImageSet()/<picture>) prefer webp via image-set()/
+     <source type=image/webp>, so preloading the original would fetch a
+     resource the browser then ignores in favor of the webp one. -->
+<link rel="preload" href="{{ preloadImage | webp }}" as="image" fetchpriority="high" />
+{% endif %}
+<!--
+  main.css bundles the sitewide core stylesheets (fonts/tokens/reset/base/layout
+  + always-on components) into one request — generated at build time by
+  scripts/bundle-css.js from the individual files under src/assets/css/, which
+  remain the source of truth for editing. See README for the dev-mode caveat.
+-->
+<link rel="stylesheet" href="/assets/css/main.css" />
+{% for href in extraCss %}
+<link rel="stylesheet" href="{{ href }}" />
+{% endfor %}
+
+<meta property="og:title" content="{% if title %}{{ title }}{% else %}{{ site.titleSuffix }}{% endif %}" />
+<meta property="og:description" content="{{ description or site.name }}" />
+<meta property="og:url" content="{{ site.url }}{{ page.url }}" />
+<meta property="og:type" content="website" />
+<meta property="og:site_name" content="{{ site.titleSuffix }}" />
+<meta property="og:image" content="{{ site.url }}{{ ogImage or '/assets/img/logo/tprs-logo-navy.png' }}" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="{% if title %}{{ title }}{% else %}{{ site.titleSuffix }}{% endif %}" />
+<meta name="twitter:description" content="{{ description or site.name }}" />
+<meta name="twitter:image" content="{{ site.url }}{{ ogImage or '/assets/img/logo/tprs-logo-navy.png' }}" />
+
+<link rel="alternate" hreflang="en" href="{{ site.url }}{{ page.url }}" />
+<link rel="alternate" hreflang="x-default" href="{{ site.url }}{{ page.url }}" />
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "{{ site.url }}/#organization",
+      "name": "{{ site.legalName }}",
+      "alternateName": "{{ site.name }}",
+      "url": "{{ site.url }}/",
+      "logo": "{{ site.url }}/assets/img/logo/tprs-logo-navy.png",
+      "sameAs": [
+        {% for social in site.socials %}
+        "{{ social.url }}"{% if not loop.last %},{% endif %}
+        {% endfor %}
+      ]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "{{ site.url }}/#website",
+      "url": "{{ site.url }}/",
+      "name": "{{ site.name }}",
+      "publisher": { "@id": "{{ site.url }}/#organization" },
+      "inLanguage": "en"
+    }
+  ]
+}
+</script>
+
+<script>
+  window.__TPRS_SITE__ = { emailUser: "{{ site.email[0] }}", emailDomain: "{{ site.email[1] }}" };
+</script>

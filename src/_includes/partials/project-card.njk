@@ -1,0 +1,12 @@
+{% macro projectCard(project, delay) %}
+<a href="{{ project.url }}" class="project-card reveal" data-reveal data-reveal-delay="{{ delay }}">
+  <div class="project-card__image-wrap">
+    <picture>
+      <source srcset="{{ project.image | webp }}" type="image/webp" />
+      <img src="{{ project.image }}" alt="" loading="lazy" width="480" height="360" class="project-card__image" />
+    </picture>
+  </div>
+  <span class="project-card__category">{{ project.category }}</span>
+  <h3 class="project-card__title">{{ project.title }}</h3>
+</a>
+{% endmacro %}

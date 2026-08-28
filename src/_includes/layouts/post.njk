@@ -1,0 +1,82 @@
+---
+layout: layouts/base.njk
+---
+{% from "partials/page-hero.njk" import pageHero %}
+{% set post = posts | findBySlug(postSlug) %}
+
+{{ pageHero(post.title, post.date, post.image, [
+  { "label": "Blogs", "url": "/blogs/" },
+  { "label": post.title }
+]) }}
+
+<section class="section">
+  <div class="container">
+    <div class="post-meta reveal" data-reveal>
+      <span class="post-meta__date">{{ post.date }}</span>
+      <span class="post-meta__sep" aria-hidden="true">&middot;</span>
+      <span class="post-meta__category">{{ post.category }}</span>
+    </div>
+
+    <div class="post-body prose reveal" data-reveal>
+      {% for block in post.body %}
+      {{ block | safe }}
+      {% endfor %}
+    </div>
+
+    <div class="post-back reveal" data-reveal>
+      <a href="/blogs/" class="btn btn--outline">&larr; Back to Blogs</a>
+    </div>
+  </div>
+</section>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": {{ post.title | dump | safe }},
+  "image": [{{ (site.url + post.image) | dump | safe }}],
+  "datePublished": {{ post.date | dump | safe }},
+  "author": {
+    "@type": "Organization",
+    "name": "TPRS Glass"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "TPRS Glass",
+    "logo": {
+      "@type": "ImageObject",
+      "url": {{ (site.url + "/assets/img/logo/tprs-logo-navy.png") | dump | safe }}
+    }
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": {{ (site.url + post.url) | dump | safe }}
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": {{ site.url | dump | safe }}
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Blogs",
+      "item": {{ (site.url + "/blogs/") | dump | safe }}
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": {{ post.title | dump | safe }},
+      "item": {{ (site.url + post.url) | dump | safe }}
+    }
+  ]
+}
+</script>

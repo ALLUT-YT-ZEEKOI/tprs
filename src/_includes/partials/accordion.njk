@@ -1,0 +1,33 @@
+{% macro accordion(items, idPrefix) %}
+<div class="accordion" data-accordion>
+  {% for item in items %}
+  <div class="accordion__item">
+    <h3 class="accordion__heading">
+      <button
+        type="button"
+        class="accordion__trigger"
+        id="{{ idPrefix }}-trigger-{{ loop.index }}"
+        aria-expanded="{% if loop.first %}true{% else %}false{% endif %}"
+        aria-controls="{{ idPrefix }}-panel-{{ loop.index }}"
+      >
+        <span>{{ item.title }}</span>
+        <svg class="accordion__icon" width="14" height="14" viewBox="0 0 14 14" aria-hidden="true" focusable="false">
+          <path d="M7 1v12M1 7h12" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" />
+        </svg>
+      </button>
+    </h3>
+    <div
+      class="accordion__panel"
+      id="{{ idPrefix }}-panel-{{ loop.index }}"
+      role="region"
+      aria-labelledby="{{ idPrefix }}-trigger-{{ loop.index }}"
+      {% if not loop.first %}hidden{% endif %}
+    >
+      <div class="accordion__panel-inner">
+        <p>{{ item.content | safe }}</p>
+      </div>
+    </div>
+  </div>
+  {% endfor %}
+</div>
+{% endmacro %}

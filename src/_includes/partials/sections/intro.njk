@@ -1,0 +1,17 @@
+<section class="intro section" id="intro">
+  <div class="container intro__inner">
+    <div class="intro__copy reveal" data-reveal>
+      <p class="eyebrow">{{ home.intro.eyebrow }}</p>
+      <h2>{{ home.intro.heading }}</h2>
+      <p class="intro__body">{{ home.intro.body }}</p>
+    </div>
+    <ul class="intro__tree reveal" data-reveal data-reveal-delay="150">
+      {% for item in home.intro.tree %}
+      <li class="intro__tree-item">
+        <span class="intro__tree-letter">{{ item.letter }}</span>
+        <span class="intro__tree-word">{{ item.word }}</span>
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
+</section>

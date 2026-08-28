@@ -1,0 +1,93 @@
+{% for menu in nav %}
+<li class="nav-item" data-nav-item>
+  <button
+    type="button"
+    class="nav-item__trigger"
+    id="nav-trigger-{{ loop.index }}"
+    aria-expanded="false"
+    aria-controls="nav-panel-{{ loop.index }}"
+  >
+    {{ menu.label }}
+    <svg class="nav-item__chevron" width="10" height="6" viewBox="0 0 10 6" aria-hidden="true" focusable="false">
+      <path d="M1 1l4 4 4-4" stroke="currentColor" stroke-width="1.5" fill="none" stroke-linecap="round" stroke-linejoin="round" />
+    </svg>
+  </button>
+
+  <div
+    class="mega-panel"
+    id="nav-panel-{{ loop.index }}"
+    role="region"
+    aria-labelledby="nav-trigger-{{ loop.index }}"
+    hidden
+  >
+    <div class="container mega-panel__inner">
+      {% if menu.items %}
+        <ul class="mega-panel__list">
+          {% for item in menu.items %}
+          <li>
+            <a
+              href="{{ item.url }}"
+              class="mega-panel__link{% if loop.first %} is-active{% endif %}"
+              data-mega-link
+              data-panel-target="panel-{{ loop.index0 }}-{{ loop.parent.loop.index }}"
+            >{{ item.label }}</a>
+          </li>
+          {% endfor %}
+        </ul>
+        <div class="mega-panel__preview">
+          {% for item in menu.items %}
+          <div
+            class="mega-panel__preview-item{% if loop.first %} is-active{% endif %}"
+            id="panel-{{ loop.index0 }}-{{ loop.parent.loop.index }}"
+            data-mega-preview
+          >
+            {% if item.image %}
+            <picture><source srcset="{{ item.image | webp }}" type="image/webp" /><img src="{{ item.image }}" alt="" loading="lazy" width="640" height="320" class="mega-panel__image" /></picture>
+            {% endif %}
+            <p class="mega-panel__desc">{{ item.description }}</p>
+            <a href="{{ item.url }}" class="btn btn--outline mega-panel__cta">Explore</a>
+          </div>
+          {% endfor %}
+        </div>
+      {% elif menu.groups %}
+        <div class="mega-panel__groups">
+          {% for group in menu.groups %}
+          <div class="mega-panel__group">
+            <h3 class="mega-panel__group-title">{{ group.label }}</h3>
+            <ul class="mega-panel__list">
+              {% for item in group.items %}
+              <li>
+                <a
+                  href="{{ item.url }}"
+                  class="mega-panel__link{% if loop.first and loop.parent.loop.first %} is-active{% endif %}"
+                  data-mega-link
+                  data-panel-target="panel-seed-{{ loop.parent.loop.index0 }}-{{ loop.index0 }}"
+                >{{ item.label }}</a>
+              </li>
+              {% endfor %}
+            </ul>
+          </div>
+          {% endfor %}
+        </div>
+        <div class="mega-panel__preview">
+          {% for group in menu.groups %}
+            {% for item in group.items %}
+            <div
+              class="mega-panel__preview-item{% if loop.first and loop.parent.loop.first %} is-active{% endif %}"
+              id="panel-seed-{{ loop.parent.loop.index0 }}-{{ loop.index0 }}"
+              data-mega-preview
+            >
+              {% if item.image %}
+              <picture><source srcset="{{ item.image | webp }}" type="image/webp" /><img src="{{ item.image }}" alt="" loading="lazy" width="640" height="320" class="mega-panel__image" /></picture>
+              {% endif %}
+              <p class="mega-panel__desc">{{ item.description }}</p>
+              <a href="{{ item.url }}" class="btn btn--outline mega-panel__cta">Explore</a>
+            </div>
+            {% endfor %}
+          {% endfor %}
+        </div>
+      {% endif %}
+    </div>
+  </div>
+</li>
+{% endfor %}

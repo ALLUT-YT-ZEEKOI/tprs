@@ -1,0 +1,80 @@
+.solution-intro,
+.industry-intro {
+  font-size: var(--fs-h6);
+  color: var(--color-text);
+  max-width: 80ch;
+}
+
+.section--tight {
+  padding-block: 48px;
+}
+
+.bg-alt {
+  background: var(--color-surface);
+}
+
+.section-head > p:not(.eyebrow) {
+  margin: 12px 0 20px;
+  max-width: 70ch;
+  color: var(--color-text);
+}
+
+.section-head .btn {
+  margin-top: 8px;
+}
+
+.glance {
+  display: grid;
+  gap: 40px;
+  grid-template-columns: 1fr;
+}
+
+@media (min-width: 1024px) {
+  .glance {
+    grid-template-columns: 0.6fr 1.4fr;
+    align-items: center;
+  }
+}
+
+.glance__stat-value {
+  font-size: clamp(2.5rem, 2rem + 2vw, 4rem);
+  font-weight: var(--fw-bold);
+  color: var(--color-navy);
+  margin: 8px 0 4px;
+}
+
+.glance__stat-label {
+  color: var(--color-text);
+}
+
+.glance__clients-head {
+  margin-bottom: 24px;
+}
+
+.glance__clients-head .btn {
+  margin-top: 12px;
+}
+
+.vision-mission-grid {
+  display: grid;
+  gap: 24px;
+  grid-template-columns: 1fr;
+}
+
+@media (min-width: 768px) {
+  .vision-mission-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+.vision-mission-card {
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-lg);
+  padding: 32px;
+}
+
+.vision-mission-card__text {
+  font-size: var(--fs-h5);
+  color: var(--color-text-dark);
+}

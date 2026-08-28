@@ -1,0 +1,94 @@
+---
+layout: layouts/page.njk
+title: Careers
+description: TPRS Glass offers dynamic career opportunities for innovators, creators, and visionaries looking to make a real impact in the glass industry. More than just a
+_DESCRIPTION_NOTE: "Live site's <meta name=description> cuts off mid-sentence at ~156 chars with no ellipsis — ported verbatim rather than completing the sentence."
+pageTitle: Careers
+pageSubtitle: Build Your Future With the TPRS Family
+heroImage: /assets/img/about/careers-hero.jpg
+breadcrumbTrail:
+  - label: About TPRS
+  - label: Careers
+extraCss:
+  - /assets/css/pages/inner-page.css
+  - /assets/css/pages/about.css
+---
+<section class="section">
+  <div class="container">
+    <div class="prose reveal" data-reveal>
+      <p>TPRS Glass offers dynamic career opportunities for innovators, creators, and visionaries looking to make a real impact in the glass industry. More than just a glass processing company, TPRS operates as a collaborative family committed to shaping the future of glass technology and building a sustainable world. TPRS provides a rewarding work environment where individual ideas and efforts contribute meaningfully to redefining what&rsquo;s possible with glass. Inviting professionals to explore career opportunities and become part of their journey toward innovation and industry leadership.</p>
+    </div>
+    <div class="reveal" data-reveal data-reveal-delay="80" style="text-align:center; margin-top: 32px;">
+      <a href="/contact-us/" class="btn btn--primary">Contact Us</a>
+    </div>
+  </div>
+</section>
+
+<section class="section bg-alt">
+  <div class="container">
+    <div class="section-head reveal" data-reveal>
+      <h2>Elevate Your Career with TPRS &ndash; Apply Today!</h2>
+    </div>
+    <form class="apply-form reveal" data-reveal data-reveal-delay="80" data-careers-form data-endpoint="{{ env.contactFormEndpoint }}" novalidate enctype="multipart/form-data">
+      <div class="apply-form__field">
+        <label for="careers-name">Name</label>
+        <input type="text" id="careers-name" name="your-name" placeholder="Name" required autocomplete="name" />
+        <span class="form-error" data-error-for="careers-name" role="alert"></span>
+      </div>
+
+      <div class="apply-form__field">
+        <label for="careers-email">Email Address</label>
+        <input type="email" id="careers-email" name="your-email" placeholder="Email Address" required autocomplete="email" />
+        <span class="form-error" data-error-for="careers-email" role="alert"></span>
+      </div>
+
+      <div class="apply-form__field">
+        <label for="careers-phone">Phone</label>
+        <input type="tel" id="careers-phone" name="phone" placeholder="Phone" required autocomplete="tel" />
+        <span class="form-error" data-error-for="careers-phone" role="alert"></span>
+      </div>
+
+      <div class="apply-form__field">
+        <label for="careers-job">Job Apply for</label>
+        <input type="text" id="careers-job" name="Job" placeholder="Job Apply for" required />
+        <span class="form-error" data-error-for="careers-job" role="alert"></span>
+      </div>
+
+      <div class="apply-form__field">
+        <label for="careers-current">Current Position</label>
+        <input type="text" id="careers-current" name="Current" placeholder="Current Position" required />
+        <span class="form-error" data-error-for="careers-current" role="alert"></span>
+      </div>
+
+      <div class="apply-form__field">
+        <label for="careers-resume">Upload Resume</label>
+        <input type="file" id="careers-resume" name="resume1" accept=".pdf" required />
+        <span class="form-error" data-error-for="careers-resume" role="alert"></span>
+      </div>
+
+      <div class="apply-form__field">
+        <label for="careers-message">Cover Letter</label>
+        <textarea id="careers-message" name="your-message" placeholder="Write your cover letter here!" required></textarea>
+        <span class="form-error" data-error-for="careers-message" role="alert"></span>
+      </div>
+
+      <!-- honeypot -->
+      <div class="form-honeypot" aria-hidden="true">
+        <label for="careers-company">Company</label>
+        <input type="text" id="careers-company" name="company" tabindex="-1" autocomplete="off" />
+      </div>
+
+      <div class="apply-form__consent">
+        <input type="checkbox" id="careers-consent" name="acceptance" required />
+        <label for="careers-consent">I agree that my data is <a href="/privacy-policy/">collected and stored</a>.</label>
+      </div>
+
+      <button type="submit" class="btn btn--gold">
+        <span class="btn__label">Apply</span>
+        <span class="btn__spinner" hidden></span>
+      </button>
+
+      <p class="form-status" data-form-status role="status" aria-live="polite"></p>
+    </form>
+  </div>
+</section>

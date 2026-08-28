@@ -1,0 +1,88 @@
+---
+layout: layouts/base.njk
+---
+{% from "partials/page-hero.njk" import pageHero %}
+{% from "partials/accordion.njk" import accordion %}
+{% set solution = solutions[solutionKey] %}
+
+{{ pageHero(solution.name, solution.subtitle, solution.heroImage, [
+  { "label": "TPRS Solutions" },
+  { "label": solution.name }
+], { "label": "Download Brochure", "url": solution.brochure }) }}
+
+<section class="section">
+  <div class="container">
+    <p class="solution-intro reveal" data-reveal>{{ solution.intro }}</p>
+  </div>
+</section>
+
+<section class="section section--tight">
+  <div class="container">
+    <div class="section-head reveal" data-reveal>
+      <p class="eyebrow">Glass Range</p>
+      <h2>Key Highlights</h2>
+    </div>
+    {{ accordion(solution.highlights, "highlights") }}
+  </div>
+</section>
+
+<section class="section section--tight bg-alt">
+  <div class="container">
+    <div class="section-head reveal" data-reveal>
+      <p class="eyebrow">Glass Metrix</p>
+      <h2>Specification</h2>
+    </div>
+    {{ accordion(solution.specs, "specs") }}
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="section-head reveal" data-reveal>
+      <p class="eyebrow">Glass in action</p>
+      <h2>Applications</h2>
+      <p>Explore our architectural solutions designed to transform spaces with visionary glass applications. From sustainability to aesthetics, we offer a diverse range of glass products that elevate the design, safety, and functionality of architectural projects.</p>
+    </div>
+    {% include "partials/applications-carousel.njk" %}
+  </div>
+</section>
+
+<section class="section bg-alt">
+  <div class="container">
+    <div class="section-head reveal" data-reveal>
+      <p class="eyebrow">Glass insights</p>
+      <h2>FAQs</h2>
+      <a href="/faq/" class="btn btn--outline">Know More</a>
+    </div>
+    {{ accordion(solution.faqs, "faq") }}
+  </div>
+</section>
+
+{{ content | safe }}
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "name": {{ solution.name | dump | safe }},
+  "description": {{ solution.intro | dump | safe }},
+  "image": {{ (site.url + solution.heroImage) | dump | safe }},
+  "brand": {
+    "@type": "Brand",
+    "name": "TPRS Glass"
+  },
+  "manufacturer": {
+    "@type": "Organization",
+    "name": "{{ site.legalName }}"
+  },
+  "additionalProperty": [
+    {% for spec in solution.specs %}
+    {
+      "@type": "PropertyValue",
+      "name": {{ spec.title | dump | safe }},
+      "value": {{ (spec.content | replace("<br>", ", ")) | dump | safe }}
+    }{% if not loop.last %},{% endif %}
+    {% endfor %}
+  ]
+}
+</script>

@@ -1,0 +1,151 @@
+---
+layout: layouts/page.njk
+title: Contact Us
+description: At TPRS Glass, every connection is an opportunity to build trust and innovation. Reach out to us, and let's shape the future of glass together.
+pageTitle: Contact Us
+pageSubtitle: Reflections of Connection
+heroImage: /assets/img/about/contact-us-hero.jpg
+breadcrumbTrail:
+  - label: About TPRS
+  - label: Contact Us
+extraCss:
+  - /assets/css/pages/inner-page.css
+  - /assets/css/pages/contact.css
+---
+<section class="section">
+  <div class="container">
+    <p class="prose reveal" data-reveal>At TPRS Glass, every connection is an opportunity to build trust and innovation. Our team is dedicated to delivering advanced glass solutions that reflect precision, purpose, and partnership. Reach out to us, and let's shape the future of glass together.</p>
+  </div>
+</section>
+
+<section class="section bg-alt" id="form">
+  <div class="container contact-layout">
+    <div class="contact-form-wrap reveal" data-reveal>
+      <p class="eyebrow">Contact Us</p>
+      <h2>Have questions? Get in touch!</h2>
+      <p class="contact-form-wrap__lede">Let's Connect and Explore Your Glass Visions.</p>
+
+      <form class="contact-form" data-contact-form data-endpoint="{{ env.contactFormEndpoint }}" novalidate>
+        <div class="contact-form__row">
+          <div class="contact-form__field">
+            <label for="contact-name" class="visually-hidden">Name</label>
+            <input type="text" id="contact-name" name="your-name" placeholder="Name" required autocomplete="name" />
+            <span class="form-error" data-error-for="contact-name" role="alert"></span>
+          </div>
+          <div class="contact-form__field">
+            <label for="contact-email" class="visually-hidden">Email Address</label>
+            <input type="email" id="contact-email" name="your-email" placeholder="Email Address" required autocomplete="email" />
+            <span class="form-error" data-error-for="contact-email" role="alert"></span>
+          </div>
+        </div>
+        <div class="contact-form__row">
+          <div class="contact-form__field">
+            <label for="contact-phone" class="visually-hidden">Phone</label>
+            <input type="tel" id="contact-phone" name="phone" placeholder="Phone" required autocomplete="tel" />
+            <span class="form-error" data-error-for="contact-phone" role="alert"></span>
+          </div>
+          <div class="contact-form__field">
+            <label for="contact-subject" class="visually-hidden">Subject</label>
+            <input type="text" id="contact-subject" name="subject" placeholder="Subject" required />
+            <span class="form-error" data-error-for="contact-subject" role="alert"></span>
+          </div>
+        </div>
+        <div class="contact-form__field">
+          <label for="contact-message" class="visually-hidden">Message</label>
+          <textarea id="contact-message" name="your-message" rows="6" placeholder="Your Message" required></textarea>
+          <span class="form-error" data-error-for="contact-message" role="alert"></span>
+        </div>
+
+        <!-- honeypot -->
+        <div class="form-honeypot" aria-hidden="true">
+          <label for="contact-company">Company</label>
+          <input type="text" id="contact-company" name="company" tabindex="-1" autocomplete="off" />
+        </div>
+
+        <div class="newsletter__consent">
+          <input type="checkbox" id="contact-consent" name="consent" required />
+          <label for="contact-consent">I agree that my data is collected and stored.</label>
+        </div>
+
+        <button type="submit" class="btn btn--primary">
+          <span class="btn__label">Send Message</span>
+          <span class="btn__spinner" hidden></span>
+        </button>
+        <p class="form-status" data-form-status role="status" aria-live="polite"></p>
+      </form>
+    </div>
+
+    <div class="contact-map reveal" data-reveal data-reveal-delay="120">
+      <iframe
+        src="https://maps.google.com/maps?t=m&output=embed&iwloc=near&z=12&q=139%2C+Manapet+Road%2C+Kanniakoil+Bahour+Commune%2C+Manapet%2C+Puducherry%2C+India."
+        title="TPRS Enterprises — Puducherry HQ location"
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+      ></iframe>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="section-head reveal" data-reveal>
+      <p class="eyebrow">Our Offices</p>
+      <h2>Where to find us</h2>
+    </div>
+    <div class="office-grid card-grid grid">
+      <div class="office-card reveal" data-reveal>
+        <h3 class="office-card__title">Pondicherry <span class="office-card__tag">HQ</span></h3>
+        <p class="office-card__body">TPRS Enterprises Private Limited<br>RS NO.139, Manapet Road, Manapet Village, Kanniakoil, Bahour Commune, Puducherry - 607402, India.</p>
+        <a href="tel:+919943485100" class="office-card__link">+91 99434 85100</a>
+        <a data-email-link data-email-user="info" data-email-domain="email.com" class="office-card__link">Email us</a>
+      </div>
+      <div class="office-card reveal" data-reveal data-reveal-delay="80">
+        <h3 class="office-card__title">Karnataka <span class="office-card__tag">Plant</span></h3>
+        <p class="office-card__body">TPRS Enterprises Private Limited<br>Plot No: 555 (A) (P) &amp; 556 (A) (P), Belur Industrial Area, Dharwad - 580011, Karnataka, India.</p>
+      </div>
+      <div class="office-card reveal" data-reveal data-reveal-delay="160">
+        <h3 class="office-card__title">Karnataka <span class="office-card__tag">Office</span></h3>
+        <p class="office-card__body">TPRS Enterprises Private Limited<br>No. 314, 3rd Cross, 2nd A Main, OMBR Layout, Banaswadi, Bangalore - 560 043, India.</p>
+      </div>
+      <div class="office-card reveal" data-reveal data-reveal-delay="240">
+        <h3 class="office-card__title">Tamil Nadu <span class="office-card__tag">Office</span></h3>
+        <p class="office-card__body">TPRS Enterprises Private Limited<br>101, 100 Feet By-Pass Road, Velachery, Chennai - 600 042, Tamil Nadu, India.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section bg-alt">
+  <div class="container">
+    <div class="section-head reveal" data-reveal>
+      <p class="eyebrow">Who to Contact</p>
+      <h2>Reach the right team</h2>
+    </div>
+    <div class="contact-people-grid card-grid grid">
+      <div class="contact-person-card reveal" data-reveal>
+        <p class="contact-person-card__dept">Interior Solutions</p>
+        <p class="contact-person-card__name">Janakan Manivannan</p>
+        <a href="tel:+917200392758" class="contact-person-card__link">+91 72003 92758</a>
+        <a data-email-link data-email-user="janakan" data-email-domain="moddwell.com" class="contact-person-card__link">Email</a>
+      </div>
+      <div class="contact-person-card reveal" data-reveal data-reveal-delay="80">
+        <p class="contact-person-card__dept">Industrial Glasses</p>
+        <p class="contact-person-card__name">Deva Kumar</p>
+        <a href="tel:+919943485100" class="contact-person-card__link">+91 99434 85100</a>
+        <a data-email-link data-email-user="deva" data-email-domain="tprsglass.com" class="contact-person-card__link">Email</a>
+      </div>
+      <div class="contact-person-card reveal" data-reveal data-reveal-delay="160">
+        <p class="contact-person-card__dept">Automotive, Escalators &amp; Elevators</p>
+        <p class="contact-person-card__name">Mukund Srinivasan</p>
+        <a href="tel:+919344047495" class="contact-person-card__link">+91 93440 47495</a>
+        <a data-email-link data-email-user="mukund" data-email-domain="tprsglass.com" class="contact-person-card__link">Email</a>
+      </div>
+      <div class="contact-person-card reveal" data-reveal data-reveal-delay="240">
+        <p class="contact-person-card__dept">General Enquiries</p>
+        <p class="contact-person-card__name">Deva Kumar</p>
+        <a href="tel:+919943485100" class="contact-person-card__link">+91 99434 85100</a>
+        <a data-email-link data-email-user="deva" data-email-domain="tprsglass.com" class="contact-person-card__link">Email</a>
+      </div>
+    </div>
+  </div>
+</section>

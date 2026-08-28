@@ -1,0 +1,14 @@
+{% from "partials/project-card.njk" import projectCard %}
+<section class="glass-focus section">
+  <div class="container">
+    <div class="section-head reveal" data-reveal>
+      <p class="eyebrow">{{ home.glassFocus.eyebrow }}</p>
+      <h2>{{ home.glassFocus.heading }}</h2>
+    </div>
+    <div class="card-grid grid">
+      {% for project in home.glassFocus.projects %}
+      {{ projectCard(project, loop.index0 * 80) }}
+      {% endfor %}
+    </div>
+  </div>
+</section>

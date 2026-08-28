@@ -1,0 +1,12 @@
+<div class="client-logos" data-carousel>
+  <ul class="client-logos__track" data-carousel-track>
+    {% for client in clients %}
+    <li class="client-logos__item">
+      <picture>
+        <source srcset="{{ client.logo | webp }}" type="image/webp" />
+        <img src="{{ client.logo }}" alt="{{ client.name }}" loading="lazy" width="205" height="115" />
+      </picture>
+    </li>
+    {% endfor %}
+  </ul>
+</div>

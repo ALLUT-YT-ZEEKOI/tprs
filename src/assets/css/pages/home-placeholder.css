@@ -1,0 +1,27 @@
+.placeholder-hero {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  background: linear-gradient(160deg, var(--color-navy) 0%, var(--color-navy-dark) 100%);
+  color: #fff;
+}
+
+.placeholder-hero__eyebrow {
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--color-sky);
+  font-size: var(--fs-small);
+  margin-bottom: 16px;
+}
+
+.placeholder-hero h1 {
+  color: #fff;
+  max-width: 16ch;
+  margin-bottom: 20px;
+}
+
+.placeholder-hero__note {
+  color: rgba(255, 255, 255, 0.75);
+  max-width: 60ch;
+  margin-bottom: 28px;
+}

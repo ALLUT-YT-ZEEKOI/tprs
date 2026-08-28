@@ -1,0 +1,27 @@
+{
+  "name": "TPRS Glass",
+  "legalName": "TPRS Enterprises PVT LTD",
+  "url": "https://tprsglass.com",
+  "titleSuffix": "TPRS Glass",
+  "phone": "+919943485100",
+  "phoneDisplay": "+91 99434 85100",
+  "whatsapp": "919943485100",
+  "whatsappPrefill": "Hi TPRS Glass, I'd like to know more about your glass solutions.",
+  "_email_NOTE": "Live site's Cloudflare-obfuscated mailto decodes to info@email.com — looks like an unreplaced theme placeholder, not a real TPRS address. Using it as a functional placeholder; confirm the real inbox before launch.",
+  "email": ["info", "email.com"],
+  "credits": {
+    "name": "Zeekoi Enterprise Solutions",
+    "url": "http://www.zeekoi.com"
+  },
+  "socials": [
+    { "name": "LinkedIn", "url": "https://www.linkedin.com/company/tprsglass/", "tagline": "Showcasing our expertise." },
+    { "name": "Instagram", "url": "https://www.instagram.com/tprsglass/", "tagline": "An experience shaped for you." },
+    { "name": "Facebook", "url": "https://www.facebook.com/tprsglass", "tagline": "Stories that connect." },
+    { "name": "YouTube", "url": "https://youtube.com/@tprsglass", "tagline": "Expert talks for you." },
+    { "name": "X", "url": "https://x.com/TprsGlass", "tagline": "Updates that matter." }
+  ],
+  "languages": [
+    { "code": "en", "label": "en", "url": "/" },
+    { "code": "en-gb", "label": "en-gb", "url": "/en-gb/" }
+  ]
+}

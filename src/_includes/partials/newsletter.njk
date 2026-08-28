@@ -1,0 +1,33 @@
+<div class="newsletter">
+  <div class="container newsletter__inner">
+    <div class="newsletter__copy">
+      <h3>Stay in the loop</h3>
+      <p>Get the latest glass innovations and TPRS updates in your inbox.</p>
+    </div>
+    <form class="newsletter__form" data-newsletter-form data-endpoint="{{ env.newsletterFormEndpoint }}" novalidate>
+      <div class="newsletter__field">
+        <label for="newsletter-email" class="visually-hidden">Email address</label>
+        <input type="email" id="newsletter-email" name="email" placeholder="Enter your email" required autocomplete="email" />
+        <span class="form-error" data-error-for="newsletter-email" role="alert"></span>
+      </div>
+
+      <!-- honeypot -->
+      <div class="form-honeypot" aria-hidden="true">
+        <label for="newsletter-company">Company</label>
+        <input type="text" id="newsletter-company" name="company" tabindex="-1" autocomplete="off" />
+      </div>
+
+      <div class="newsletter__consent">
+        <input type="checkbox" id="newsletter-consent" name="consent" required />
+        <label for="newsletter-consent">I agree to the <a href="/privacy-policy/">Privacy Policy</a></label>
+      </div>
+
+      <button type="submit" class="btn btn--gold newsletter__submit">
+        <span class="btn__label">Subscribe</span>
+        <span class="btn__spinner" hidden></span>
+      </button>
+
+      <p class="form-status" data-form-status role="status" aria-live="polite"></p>
+    </form>
+  </div>
+</div>

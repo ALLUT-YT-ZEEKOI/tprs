@@ -1,0 +1,11 @@
+{% macro certBadges(certs) %}
+<div class="cert-badges grid card-grid">
+  {% for cert in certs %}
+  <div class="cert-badge reveal" data-reveal data-reveal-delay="{{ loop.index0 * 50 }}">
+    {% if cert.image %}<picture><source srcset="{{ cert.image | webp }}" type="image/webp" /><img src="{{ cert.image }}" alt="{{ cert.name }}" loading="lazy" width="120" height="120" class="cert-badge__image" /></picture>{% endif %}
+    <h3 class="cert-badge__name">{{ cert.name }}</h3>
+    <p class="cert-badge__desc">{{ cert.description }}</p>
+  </div>
+  {% endfor %}
+</div>
+{% endmacro %}

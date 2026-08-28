@@ -1,0 +1,6 @@
+---
+layout: layouts/base.njk
+---
+{% from "partials/page-hero.njk" import pageHero %}
+{{ pageHero(pageTitle, pageSubtitle, heroImage, breadcrumbTrail, heroCta) }}
+{{ content | safe }}

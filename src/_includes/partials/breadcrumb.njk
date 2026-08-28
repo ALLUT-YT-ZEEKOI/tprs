@@ -1,0 +1,17 @@
+{% macro breadcrumb(trail) %}
+<nav class="breadcrumb" aria-label="Breadcrumb">
+  <ol class="breadcrumb__list">
+    <li><a href="/">Home</a></li>
+    {% for crumb in trail %}
+    <li aria-hidden="true" class="breadcrumb__sep">/</li>
+    {% if loop.last %}
+    <li aria-current="page">{{ crumb.label }}</li>
+    {% elif crumb.url %}
+    <li><a href="{{ crumb.url }}">{{ crumb.label }}</a></li>
+    {% else %}
+    <li>{{ crumb.label }}</li>
+    {% endif %}
+    {% endfor %}
+  </ol>
+</nav>
+{% endmacro %}

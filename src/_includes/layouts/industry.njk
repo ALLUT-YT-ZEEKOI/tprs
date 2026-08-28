@@ -1,0 +1,92 @@
+---
+layout: layouts/base.njk
+---
+{% from "partials/page-hero.njk" import pageHero %}
+{% from "partials/accordion.njk" import accordion %}
+{% from "partials/project-card.njk" import projectCard %}
+{% set industry = industries[industryKey] %}
+
+{{ pageHero(industry.name, industry.subtitle, industry.heroImage, [
+  { "label": "TPRS for Industry" },
+  { "label": industry.name }
+], { "label": "Download Brochure", "url": industry.brochure }) }}
+
+<section class="section">
+  <div class="container">
+    <p class="industry-intro reveal" data-reveal>{{ industry.intro }}</p>
+  </div>
+</section>
+
+{% if industry.glance %}
+<section class="section section--tight bg-alt">
+  <div class="container">
+    <div class="glance">
+      {% if industry.glance.stat %}
+      <div class="glance__stat reveal" data-reveal>
+        <h2 class="eyebrow">{{ industry.glance.heading }}</h2>
+        <p class="glance__stat-value" data-counters>
+          <span data-counter data-counter-end="{{ industry.glance.stat.value }}">0</span>{{ industry.glance.stat.suffix }}
+        </p>
+        <p class="glance__stat-label">{{ industry.glance.stat.label }}</p>
+      </div>
+      {% endif %}
+      {% if industry.glance.clientsHeading %}
+      <div class="glance__clients reveal" data-reveal data-reveal-delay="120">
+        <div class="glance__clients-head">
+          <p class="eyebrow">our clients</p>
+          <h2>{{ industry.glance.clientsHeading }}</h2>
+          <a href="{{ industry.glance.clientsCta.url }}" class="btn btn--outline">{{ industry.glance.clientsCta.label }}</a>
+        </div>
+        {% set clients = industry.glance.clients %}
+        {% include "partials/client-logos.njk" %}
+      </div>
+      {% endif %}
+    </div>
+  </div>
+</section>
+{% endif %}
+
+{% if industry.applications %}
+<section class="section">
+  <div class="container">
+    <div class="section-head reveal" data-reveal>
+      <p class="eyebrow">Glass in action</p>
+      <h2>Applications</h2>
+      <p>Explore our architectural solutions designed to transform spaces with visionary glass applications. From sustainability to aesthetics, we offer a diverse range of glass products that elevate the design, safety, and functionality of architectural projects. Discover how our innovative solutions can enhance your architectural vision.</p>
+    </div>
+    {% set items = industry.applications %}
+    {% include "partials/industry-applications.njk" %}
+  </div>
+</section>
+{% endif %}
+
+{% if industry.projectsHeading %}
+<section class="section bg-alt">
+  <div class="container">
+    <div class="section-head reveal" data-reveal>
+      <h2>{{ industry.projectsHeading }}</h2>
+      <p>{{ industry.projectsIntro }}</p>
+    </div>
+    <div class="card-grid grid">
+      {% for project in home.glassFocus.projects %}
+      {{ projectCard(project, loop.index0 * 80) }}
+      {% endfor %}
+    </div>
+  </div>
+</section>
+{% endif %}
+
+{% if industry.faqs %}
+<section class="section">
+  <div class="container">
+    <div class="section-head reveal" data-reveal>
+      <p class="eyebrow">Glass insights</p>
+      <h2>FAQs</h2>
+      <a href="/faq/" class="btn btn--outline">Know More</a>
+    </div>
+    {{ accordion(industry.faqs, "faq") }}
+  </div>
+</section>
+{% endif %}
+
+{{ content | safe }}

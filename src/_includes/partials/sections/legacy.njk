@@ -1,0 +1,20 @@
+{% from "partials/bg-image-set.njk" import bgImageSet %}
+<section class="legacy section" style="{{ bgImageSet(home.legacy.background) }}">
+  <div class="legacy__overlay"></div>
+  <div class="container legacy__inner">
+    <div class="reveal" data-reveal>
+      <p class="eyebrow eyebrow--light">{{ home.legacy.eyebrow }}</p>
+      <h2 class="legacy__heading">{{ home.legacy.heading }}</h2>
+    </div>
+    <ul class="legacy__stats" data-counters>
+      {% for stat in home.legacy.stats %}
+      <li class="legacy__stat reveal" data-reveal data-reveal-delay="{{ loop.index0 * 100 }}">
+        <span class="legacy__stat-value">
+          <span data-counter data-counter-end="{{ stat.value }}">0</span>{{ stat.suffix }}
+        </span>
+        <span class="legacy__stat-label">{{ stat.label }}</span>
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
+</section>

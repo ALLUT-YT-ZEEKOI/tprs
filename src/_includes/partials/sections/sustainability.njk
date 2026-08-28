@@ -1,0 +1,9 @@
+{% from "partials/bg-image-set.njk" import bgImageSet %}
+<section class="sustainability-band" style="{{ bgImageSet(home.sustainability.background) }}">
+  <div class="sustainability-band__overlay"></div>
+  <div class="container sustainability-band__inner reveal" data-reveal>
+    <p class="eyebrow eyebrow--light">{{ home.sustainability.eyebrow }}</p>
+    <h2 class="sustainability-band__heading">{{ home.sustainability.heading }}</h2>
+    <a href="{{ home.sustainability.cta.url }}" class="btn btn--gold">{{ home.sustainability.cta.label }}</a>
+  </div>
+</section>

@@ -1,0 +1,17 @@
+{
+  "name": "tprs-glass",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Static rebuild of tprsglass.com — Eleventy + hand-written CSS/JS, compiled to flat HTML.",
+  "scripts": {
+    "dev": "eleventy --serve",
+    "build": "eleventy",
+    "clean": "node -e \"require('fs').rmSync('dist',{recursive:true,force:true})\""
+  },
+  "devDependencies": {
+    "@11ty/eleventy": "^3.0.0"
+  },
+  "dependencies": {
+    "dotenv": "^17.4.2"
+  }
+}

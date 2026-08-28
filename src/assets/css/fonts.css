@@ -1,0 +1,33 @@
+/* Outfit is shipped by Google Fonts as a variable font — one physical file
+   covers the whole weight axis. Declaring four font-weight-pinned rules
+   against the same file (rather than downloading four separate files)
+   mirrors how Google's own CSS serves it and keeps this to a single
+   ~32KB request. */
+@font-face {
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("/assets/fonts/outfit-variable-latin.woff2") format("woff2");
+}
+@font-face {
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("/assets/fonts/outfit-variable-latin.woff2") format("woff2");
+}
+@font-face {
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url("/assets/fonts/outfit-variable-latin.woff2") format("woff2");
+}
+@font-face {
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("/assets/fonts/outfit-variable-latin.woff2") format("woff2");
+}

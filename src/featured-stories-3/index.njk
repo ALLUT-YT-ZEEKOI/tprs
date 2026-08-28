@@ -1,0 +1,87 @@
+---
+layout: layouts/page.njk
+title: Featured Stories
+description: Dive into featured stories that capture what's happening at TPRS ranging from exciting company news, product launches to projects and achievements that showcase the dynamic world of TPRS.
+pageTitle: Featured Stories
+pageSubtitle: What's Happening in TPRS
+heroImage: /assets/img/about/factory-banner.jpg
+breadcrumbTrail:
+  - label: Resources
+  - label: Featured Stories
+extraCss:
+  - /assets/css/pages/inner-page.css
+  - /assets/css/pages/featured-stories.css
+extraJs:
+  - /assets/js/share.js
+stories:
+  - title: TPRS Best Glass Processing Company In India
+    date: July 13, 2024
+    views: "4K"
+    author: Anamika S
+    image: /assets/img/featured-stories/best-glass-processing-company-india.jpg
+    url: https://tprsglass.com/best-glass-processing-company-in-india/
+  - title: "TPRS Unveils New Logo: A Fresh Look for a Sustainable Future"
+    date: February 10, 2025
+    views: "2K"
+    author: TPRS Group
+    image: /assets/img/featured-stories/tprs-new-logo.png
+    url: https://tprsglass.com/tprs-unveils-new-logo/
+  - title: TPRS Wins the Leading Glass Processor Award at the Glass Bulletin Awards
+    date: September 18, 2025
+    views: "1K"
+    author: TPRS Group
+    image: /assets/img/featured-stories/glass-bulletin-award.jpg
+    url: /glass-bulletin-awards/
+---
+<section class="section">
+  <div class="container">
+    <div class="prose reveal" data-reveal>
+      <p>Dive into featured stories that capture what&rsquo;s happening at TPRS ranging from exciting company news, product launches to projects and achievements that showcase the dynamic world of TPRS.</p>
+    </div>
+  </div>
+</section>
+
+<section class="section section--tight">
+  <div class="container">
+    <div class="story-grid">
+      {% for story in stories %}
+      {% set isInternal = story.url.startsWith("/") %}
+      {% set absoluteUrl = story.url if not isInternal else (site.url + story.url) %}
+      <article class="story-card reveal" data-reveal>
+        <a href="{{ story.url }}" class="story-card__image-wrap" {% if not isInternal %}target="_blank" rel="noopener"{% endif %}>
+          <img src="{{ story.image }}" alt="" loading="lazy" width="890" height="664" class="story-card__image" />
+        </a>
+        <p class="story-card__category">TPRS</p>
+        <h3 class="story-card__title">
+          <a href="{{ story.url }}" {% if not isInternal %}target="_blank" rel="noopener"{% endif %}>{{ story.title }}</a>
+        </h3>
+        <p class="story-card__meta">{{ story.date }} &middot; {{ story.views }} Views &middot; By {{ story.author }}</p>
+
+        <div class="story-card__share" data-share data-url="{{ absoluteUrl }}" data-title="{{ story.title }}">
+          <span class="story-card__share-label">Share</span>
+          <a
+            class="share-btn share-btn--twitter"
+            href="https://twitter.com/intent/tweet?text={{ story.title | urlencode }}&amp;url={{ absoluteUrl | urlencode }}"
+            target="_blank"
+            rel="noopener"
+            aria-label="Share on X (Twitter)"
+          >X</a>
+          <a
+            class="share-btn share-btn--facebook"
+            href="https://www.facebook.com/sharer/sharer.php?u={{ absoluteUrl | urlencode }}"
+            target="_blank"
+            rel="noopener"
+            aria-label="Share on Facebook"
+          >Facebook</a>
+          <a
+            class="share-btn share-btn--email"
+            href="mailto:?subject={{ story.title | urlencode }}&amp;body={{ absoluteUrl | urlencode }}"
+            aria-label="Share by email"
+          >Email</a>
+          <button type="button" class="share-btn share-btn--copy" data-copy-link aria-label="Copy link">Copy Link</button>
+        </div>
+      </article>
+      {% endfor %}
+    </div>
+  </div>
+</section>

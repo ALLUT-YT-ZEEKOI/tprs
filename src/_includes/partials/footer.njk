@@ -1,0 +1,55 @@
+<footer class="site-footer">
+  <div class="container site-footer__top">
+    <div class="site-footer__brand">
+      <a href="/" class="site-footer__logo">
+        <img src="/assets/img/logo/tprs-logo-navy.png" alt="{{ site.name }}" width="180" height="82" />
+      </a>
+      <p class="site-footer__tagline">Trusted Leader in the Glass Industry.</p>
+    </div>
+
+    <div class="site-footer__col">
+      <h3 class="site-footer__heading">TPRS Solutions</h3>
+      <ul class="site-footer__links">
+        {% for item in nav[0].items %}
+        <li><a href="{{ item.url }}">{{ item.label }}</a></li>
+        {% endfor %}
+      </ul>
+    </div>
+
+    <div class="site-footer__col">
+      <h3 class="site-footer__heading">TPRS for Industry</h3>
+      <ul class="site-footer__links">
+        {% for item in nav[1].items %}
+        <li><a href="{{ item.url }}">{{ item.label }}</a></li>
+        {% endfor %}
+      </ul>
+    </div>
+
+    <div class="site-footer__col">
+      <h3 class="site-footer__heading">Quick Links</h3>
+      <ul class="site-footer__links">
+        <li><a href="/about-us/">About Us</a></li>
+        <li><a href="/quality-and-certification/">Quality &amp; Certifications</a></li>
+        <li><a href="/life-at-tprs/">Life at TPRS</a></li>
+        <li><a href="/contact-us/">Contact</a></li>
+        <li><a href="/catalogue/">Catalogues</a></li>
+      </ul>
+    </div>
+
+    <div class="site-footer__col">
+      <h3 class="site-footer__heading">Socials</h3>
+      <ul class="site-footer__socials">
+        {% for social in site.socials %}
+        <li><a href="{{ social.url }}" target="_blank" rel="noopener">{{ social.name }}</a></li>
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
+
+  {% include "partials/newsletter.njk" %}
+
+  <div class="container site-footer__bottom">
+    <p>Copyright &copy; 2026 {{ site.legalName }}, All Rights Reserved. Powered by <a href="{{ site.credits.url }}" target="_blank" rel="noopener">{{ site.credits.name }}</a>.</p>
+    <a href="/privacy-policy/" class="site-footer__privacy">Privacy Policy</a>
+  </div>
+</footer>

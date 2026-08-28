@@ -1,0 +1,152 @@
+/* About TPRS cluster — about-us, careers, life-at-tprs, quality-and-certification */
+
+/* "Why TPRS?" 3-column layout (about-us) */
+.why-tprs {
+  display: grid;
+  gap: 24px;
+  grid-template-columns: 1fr;
+  align-items: center;
+}
+
+@media (min-width: 900px) {
+  .why-tprs {
+    grid-template-columns: 1fr 1.4fr auto;
+    gap: 40px;
+  }
+}
+
+.why-tprs__text {
+  color: var(--color-text);
+  font-size: var(--fs-h6);
+}
+
+/* Milestones section head (title + intro side by side) */
+.milestones-head {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: 1fr;
+  margin-bottom: 32px;
+}
+
+@media (min-width: 900px) {
+  .milestones-head {
+    grid-template-columns: 1fr 1.6fr;
+    align-items: center;
+  }
+}
+
+.milestones-head p {
+  color: var(--color-text);
+  max-width: 60ch;
+}
+
+/* Pull-quote (quality-and-certification "TPRS Promise") */
+.pull-quote {
+  border-left: 4px solid var(--color-gold);
+  padding: 8px 0 8px 28px;
+  font-size: var(--fs-h4);
+  font-weight: var(--fw-medium);
+  color: var(--color-text-dark);
+  line-height: var(--lh-heading);
+}
+
+/* Callout box (Dowsil Quality Bond assurance paragraph) */
+.callout {
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-lg);
+  padding: 32px;
+}
+
+.callout p {
+  color: var(--color-text);
+}
+
+/* Careers application form */
+.apply-form {
+  max-width: 640px;
+  display: grid;
+  gap: 20px;
+}
+
+.apply-form__field {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.apply-form__field label {
+  font-size: var(--fs-small);
+  font-weight: var(--fw-medium);
+  color: var(--color-text-dark);
+}
+
+.apply-form__field input[type="text"],
+.apply-form__field input[type="email"],
+.apply-form__field input[type="tel"],
+.apply-form__field input[type="file"],
+.apply-form__field textarea {
+  width: 100%;
+  padding: 14px 16px;
+  border-radius: var(--radius-sm);
+  border: 1px solid var(--color-border);
+  background: var(--color-surface);
+  color: var(--color-text-dark);
+  font-family: var(--font-primary);
+  font-size: var(--fs-body);
+}
+
+.apply-form__field textarea {
+  resize: vertical;
+  min-height: 120px;
+}
+
+.apply-form__field input:focus-visible,
+.apply-form__field textarea:focus-visible {
+  outline: 2px solid var(--color-navy);
+  outline-offset: 2px;
+}
+
+.apply-form__consent {
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+  font-size: var(--fs-small);
+  color: var(--color-text);
+}
+
+.apply-form__consent input {
+  margin-top: 3px;
+}
+
+/* Life at TPRS photo gallery */
+.photo-gallery {
+  display: grid;
+  gap: 24px;
+  grid-template-columns: 1fr;
+}
+
+@media (min-width: 768px) {
+  .photo-gallery {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.photo-gallery__item {
+  border-radius: var(--radius-md);
+  overflow: hidden;
+}
+
+.photo-gallery__img {
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+  display: block;
+}
+
+.photo-gallery__caption {
+  margin-top: 10px;
+  font-size: var(--fs-small);
+  font-weight: var(--fw-medium);
+  color: var(--color-text-dark);
+}

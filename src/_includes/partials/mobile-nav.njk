@@ -1,0 +1,61 @@
+<div class="mobile-nav" id="mobile-nav" data-mobile-nav hidden>
+  <div class="mobile-nav__overlay" data-mobile-nav-overlay></div>
+  <div class="mobile-nav__panel" role="dialog" aria-modal="true" aria-label="Site menu">
+    <div class="mobile-nav__header">
+      <a href="/" class="mobile-nav__logo">
+        <img src="/assets/img/logo/tprs-logo-navy.png" alt="{{ site.name }}" width="140" height="64" />
+      </a>
+      <button type="button" class="mobile-nav__close" data-mobile-nav-close aria-label="Close menu">
+        <svg width="18" height="18" viewBox="0 0 18 18" aria-hidden="true" focusable="false">
+          <path d="M1 1l16 16M17 1L1 17" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" />
+        </svg>
+      </button>
+    </div>
+
+    <nav aria-label="Mobile primary">
+      <ul class="mobile-accordion">
+        {% for menu in nav %}
+        <li class="mobile-accordion__item">
+          <button
+            type="button"
+            class="mobile-accordion__trigger"
+            aria-expanded="false"
+            aria-controls="mobile-panel-{{ loop.index }}"
+          >
+            {{ menu.label }}
+            <svg width="10" height="6" viewBox="0 0 10 6" aria-hidden="true" focusable="false"><path d="M1 1l4 4 4-4" stroke="currentColor" stroke-width="1.5" fill="none" stroke-linecap="round" stroke-linejoin="round" /></svg>
+          </button>
+          <div class="mobile-accordion__panel" id="mobile-panel-{{ loop.index }}" hidden>
+            {% if menu.items %}
+            <ul class="mobile-accordion__links">
+              {% for item in menu.items %}
+              <li><a href="{{ item.url }}">{{ item.label }}</a></li>
+              {% endfor %}
+            </ul>
+            {% elif menu.groups %}
+              {% for group in menu.groups %}
+              <div class="mobile-accordion__sub">
+                <p class="mobile-accordion__sub-title">{{ group.label }}</p>
+                <ul class="mobile-accordion__links">
+                  {% for item in group.items %}
+                  <li><a href="{{ item.url }}">{{ item.label }}</a></li>
+                  {% endfor %}
+                </ul>
+              </div>
+              {% endfor %}
+            {% endif %}
+          </div>
+        </li>
+        {% endfor %}
+      </ul>
+    </nav>
+
+    <div class="mobile-nav__footer">
+      <div class="lang-switch lang-switch--mobile">
+        {% for lang in site.languages %}
+        <a href="{{ lang.url }}" lang="{{ lang.code }}">{{ lang.label }}</a>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</div>

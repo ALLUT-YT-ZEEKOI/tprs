@@ -1,0 +1,21 @@
+---
+layout: layouts/page.njk
+title: Portfolio
+description: Explore TPRS Glass's portfolio of landmark construction and interior projects across India — hotels, malls, corporate towers, residences, and more.
+pageTitle: All Portfolio items
+heroImage: /assets/img/about/factory-banner.jpg
+breadcrumbTrail:
+  - label: Portfolio
+extraCss:
+  - /assets/css/pages/portfolio.css
+---
+{% from "partials/project-card.njk" import projectCard %}
+<section class="section">
+  <div class="container">
+    <div class="card-grid grid">
+      {% for slug, project in projects %}
+      {{ projectCard({ image: project.coverImage, category: project.category, title: project.title, url: project.url }, loop.index0 * 60) }}
+      {% endfor %}
+    </div>
+  </div>
+</section>

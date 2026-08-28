@@ -1,0 +1,30 @@
+.error-page {
+  min-height: 70vh;
+  display: flex;
+  align-items: center;
+  padding-top: var(--header-height);
+}
+
+.error-page__inner {
+  text-align: center;
+}
+
+.error-page__code {
+  font-size: clamp(4rem, 3rem + 4vw, 8rem);
+  font-weight: var(--fw-bold);
+  color: var(--color-navy);
+  line-height: 1;
+}
+
+.error-page__text {
+  color: var(--color-text);
+  max-width: 50ch;
+  margin: 12px auto 32px;
+}
+
+.error-page__actions {
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+  flex-wrap: wrap;
+}

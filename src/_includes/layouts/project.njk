@@ -1,0 +1,56 @@
+---
+layout: layouts/base.njk
+---
+{% from "partials/page-hero.njk" import pageHero %}
+{% set project = projects[projectKey] %}
+
+{{ pageHero(project.title, project.location, project.coverImage, [
+  { "label": "Portfolio", "url": "/portfolio/" },
+  { "label": project.title }
+]) }}
+
+<section class="section">
+  <div class="container">
+    <p class="project-meta reveal" data-reveal>
+      <span class="project-meta__category">{{ project.category }}</span>
+      {% if project.location %}<span class="project-meta__location">{{ project.location }}</span>{% endif %}
+    </p>
+
+    {% if project.description %}
+    <div class="prose reveal" data-reveal data-reveal-delay="80">
+      <p>{{ project.description | safe }}</p>
+    </div>
+    {% endif %}
+
+    {% if project.solutions and project.solutions.length %}
+    <div class="project-solutions reveal" data-reveal data-reveal-delay="160">
+      <p class="eyebrow">Glass Solutions Used</p>
+      <ul>
+        {% for solution in project.solutions %}
+        <li>{{ solution }}</li>
+        {% endfor %}
+      </ul>
+    </div>
+    {% endif %}
+  </div>
+</section>
+
+{% if project.gallery and project.gallery.length %}
+<section class="section bg-alt">
+  <div class="container">
+    <div class="section-head reveal" data-reveal>
+      <p class="eyebrow">Gallery</p>
+      <h2>In Focus</h2>
+    </div>
+    <div class="project-gallery" data-lightbox>
+      {% for img in project.gallery %}
+      <a href="{{ img }}" class="project-gallery__item reveal" data-reveal data-reveal-delay="{{ loop.index0 * 60 }}" data-lightbox-item data-lightbox-index="{{ loop.index0 }}">
+        <img src="{{ img }}" alt="{{ project.title }} — image {{ loop.index }}" loading="lazy" class="project-gallery__image" />
+      </a>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+{% endif %}
+
+{{ content | safe }}

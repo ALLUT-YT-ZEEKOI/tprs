@@ -1,0 +1,11 @@
+{% macro timeline(items) %}
+<ol class="timeline">
+  {% for item in items %}
+  <li class="timeline__item reveal" data-reveal data-reveal-delay="{{ loop.index0 * 60 }}">
+    <span class="timeline__number">{{ item.number }}</span>
+    <span class="timeline__year">{{ item.year }}</span>
+    <span class="timeline__text">{{ item.text }}</span>
+  </li>
+  {% endfor %}
+</ol>
+{% endmacro %}

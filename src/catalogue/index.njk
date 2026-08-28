@@ -1,0 +1,81 @@
+---
+layout: layouts/page.njk
+title: Catalogue
+description: Explore our comprehensive product catalogue featuring detailed descriptions, specifications, and visual guides for the full range of TPRS glass products designed for diverse industry applications.
+pageTitle: Catalogue
+pageSubtitle: Discover Glass Solutions
+heroImage: /assets/img/about/factory-banner.jpg
+breadcrumbTrail:
+  - label: Resources
+  - label: Catalogue
+extraCss:
+  - /assets/css/pages/inner-page.css
+  - /assets/css/pages/catalogue.css
+catalogues:
+  - title: Architectural Glass Catalogue
+    view: /assets/downloads/TPRS.pdf
+    download: /assets/downloads/TPRS.pdf
+    downloadName: architectural-glass
+  - title: Automotive Glass Catalogue
+    view: /assets/downloads/AUTOMOBILE.pdf
+    download: /assets/downloads/AUTOMOBILE.pdf
+    downloadName: automotive
+  - title: Industrial Glass Catalogue
+    view: /assets/downloads/INDUSTRIAL_TPRS.pdf
+    download: /assets/downloads/INDUSTRIAL_TPRS.pdf
+    downloadName: industrial
+  - title: Interior Solutions Glass Catalogue
+    view: /assets/downloads/Moddwell-brochure-01.pdf
+    download: /assets/downloads/Moddwell-brochure-01.pdf
+    downloadName: interior-solutions
+---
+<section class="section">
+  <div class="container">
+    <div class="prose reveal" data-reveal>
+      <p>Explore our comprehensive product catalogue featuring detailed descriptions, specifications, and visual guides for the full range of TPRS glass products designed for diverse industry applications.</p>
+    </div>
+  </div>
+</section>
+
+<section class="section section--tight">
+  <div class="container">
+    <div class="catalogue-grid">
+      {% for cat in catalogues %}
+      <div class="catalogue-card reveal" data-reveal>
+        <h3 class="catalogue-card__title">{{ cat.title }}</h3>
+        <div class="catalogue-card__actions">
+          <a href="{{ cat.view }}" class="btn btn--outline" target="_blank" rel="noopener">View Catalogue</a>
+          <a href="{{ cat.download }}" class="btn btn--primary" download="{{ cat.downloadName }}">Download Now</a>
+        </div>
+      </div>
+      {% endfor %}
+
+      <div class="catalogue-card catalogue-card--wide reveal" data-reveal>
+        <h3 class="catalogue-card__title">Elevators &amp; Escalators Glass Catalogue</h3>
+        <ul class="catalogue-card__sublist">
+          <li>
+            <span class="catalogue-card__subtitle">TPRS Profile</span>
+            <div class="catalogue-card__actions">
+              <a href="/assets/downloads/TPRS.pdf" class="btn btn--outline" target="_blank" rel="noopener">View TPRS Profile</a>
+              <a href="/assets/downloads/TPRS.pdf" class="btn btn--primary" download="TPRS-Profile">Download TPRS Profile</a>
+            </div>
+          </li>
+          <li>
+            <span class="catalogue-card__subtitle">Escalators and Elevators</span>
+            <div class="catalogue-card__actions">
+              <a href="/assets/downloads/LIFT-CATALOGUE.pdf" class="btn btn--outline" target="_blank" rel="noopener">View Escalators and Elevators</a>
+              <a href="/assets/downloads/LIFT-CATALOGUE.pdf" class="btn btn--primary" download="Escalators-and-Elevators">Download Escalators and Elevators</a>
+            </div>
+          </li>
+          <li>
+            <span class="catalogue-card__subtitle">Special Collections</span>
+            <div class="catalogue-card__actions">
+              <a href="/assets/downloads/LIFT-INTERIORS.pdf" class="btn btn--outline" target="_blank" rel="noopener">View Special Collections</a>
+              <a href="/assets/downloads/LIFT-INTERIORS.pdf" class="btn btn--primary" download="Special-Collections">Download Special Collections</a>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>

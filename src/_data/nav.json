@@ -1,0 +1,58 @@
+[
+  {
+    "label": "TPRS Solutions",
+    "items": [
+      { "label": "TPRS Tuffsafe", "url": "/tprs-tuffsafe/", "image": "/assets/img/solutions/TUFFSAFE.png", "description": "TPRS Tuffsafe is a range of thermally treated glass created to provide enhanced strength and safety for a broad spectrum of use cases." },
+      { "label": "TPRS Lamisafe", "url": "/tprs-lamisafe/", "image": "/assets/img/solutions/LAMISAFE.png", "description": "TPRS Lamisafe is a QNL-certified solution with high-performance laminated glass for strength, safety, and versatility." },
+      { "label": "TPRS Innovink", "url": "/tprs-innovink/", "image": "/assets/img/solutions/INNOVINK.png", "description": "TPRS Innovink turns glass into a medium of expression by combining decorative design and functional performance." },
+      { "label": "TPRS Ecosafe", "url": "/tprs-ecosafe-2/", "image": "/assets/img/solutions/ECOSAFE.png", "description": "TPRS Ecosafe is a DOWSIL Quality Bond Certified solution from TPRS Glass, offering energy-efficient insulated glass you can count on." },
+      { "label": "TPRS Archsafe", "url": "/tprs-archsafe/", "image": "/assets/img/solutions/ARCHSAFE.png", "description": "TPRS Archsafe combines structural performance with sculptural beauty, offering curved glass solutions engineered for wind load resistance, thermal efficiency, and modern design integration." },
+      { "label": "TPRS Wizardglass", "url": "/tprs-wizardglass/", "image": "/assets/img/solutions/WIZARDGLASS.png", "description": "TPRS Wizardglass redefines space with smart electrochromic technology that shifts from opaque to transparent and vice versa in a click." },
+      { "label": "TPRS Winsafe", "url": "/tprs-winsafe/", "image": "/assets/img/solutions/WINSAFE-WHITE.png", "description": "TPRS Winsafe frames are built with a robust aluminum profile, ensuring both strength and a sleek appearance." }
+    ]
+  },
+  {
+    "label": "TPRS for Industry",
+    "items": [
+      { "label": "Architecture", "url": "/architecture/", "description": "TPRS offers a diverse range of architectural glass solutions renowned for their aesthetic and superior performance." },
+      { "label": "Automotive", "url": "/automotive/", "description": "TPRS Glass delivers specialised automotive glass solutions for commercial and passenger vehicles, including buses, trucks, and material handling equipment." },
+      { "label": "Earthmovers", "url": "/earth-movers/", "description": "TPRS Glass delivers robust, high-performance glass solutions specifically engineered for earthmoving equipment operating in demanding construction and mining environments." },
+      { "label": "Engineering Equipments", "url": "/engineered-glass/", "description": "TPRS Glass delivers comprehensive engineered glass solutions for equipment, including precision components for lights, gauges, and switch panels in demanding electronic applications." },
+      { "label": "Locomotive", "url": "/locomotive/", "description": "TPRS Glass provides high-performance glass solutions designed to meet the strict safety, durability, and aesthetic demands of the railway industry." },
+      { "label": "Marine", "url": "/marine/", "description": "TPRS Glass delivers specialized glass solutions designed to withstand the demanding conditions of the maritime industry." },
+      { "label": "Refrigeration", "url": "/refrigeration/", "description": "TPRS Glass delivers advanced glass solutions tailored for refrigeration applications in both commercial and residential settings." },
+      { "label": "Vertical Mobility", "url": "/vertical-mobility/", "description": "TPRS Glass specializes in advanced glass solutions for elevators and escalators, catering with unmatched quality and reliability for safer, more elegant vertical mobility systems." },
+      { "label": "White Goods", "url": "/white-goods/", "description": "TPRS Glass provides innovative glass solutions for the white goods industry, catering to appliances including stoves, ovens, and kitchen equipment for residential and commercial kitchens." }
+    ]
+  },
+  {
+    "label": "About TPRS",
+    "items": [
+      { "label": "About Us", "url": "/about-us/", "description": "To drive positive change for people and the planet through sustainable solutions.", "_NOTE": "This is what's literally live on tprsglass.com right now for the About Us mega-menu panel — it's the Vision & Mission tagline, reused here (looks like a copy-paste slip on the live site, since 'Vision and Mission' below has the same text). Ported as-is for fidelity; flag to the client as a likely fix." },
+      { "label": "Careers", "url": "/careers/", "description": "TPRS Glass offers dynamic career opportunities for innovators, creators, and visionaries looking to make a real impact in the glass industry." },
+      { "label": "Contact Us", "url": "/contact-us/", "description": "At TPRS, we're here to support your glass solutions needs. We'd love to hear from you." },
+      { "label": "Life at TPRS", "url": "/life-at-tprs/", "description": "At TPRS Glass, work culture is founded on family values, innovation, and a shared sense of purpose cultivating an environment where creativity is encouraged, collaboration is prized, and every team member's voice is heard." },
+      { "label": "Quality and Certification", "url": "/quality-and-certification/", "description": "TPRS Glass upholds the highest standards of quality through rigorous process controls, meticulous manufacturing protocols and advanced testing methodologies at every stage." },
+      { "label": "Vision and Mission", "url": "/vision-and-mission/", "description": "To drive positive change for people and the planet through sustainable solutions." }
+    ]
+  },
+  {
+    "label": "TPRS Seed",
+    "groups": [
+      {
+        "label": "Resources",
+        "items": [
+          { "label": "Blogs", "url": "/blogs/", "description": "Discover the stories on glass innovations. Explore industry insights, glass types, real-world applications, and practical tips to help you make informed decisions about glass solutions." },
+          { "label": "FAQs", "url": "/faq/", "description": "Find quick answers to the most frequently asked questions about our products, services, industries, and more." },
+          { "label": "Catalogues", "url": "/catalogue/", "description": "Explore and download our latest product catalogues to discover in detail every product, feature, and solution we offer." }
+        ]
+      },
+      {
+        "label": "News & Media",
+        "items": [
+          { "label": "Featured Stories", "url": "/featured-stories-3/", "image": "/assets/img/mega-menu/news-featured.png", "description": "Discover what's new at TPRS Glass. Read our latest announcements and updates from the team." }
+        ]
+      }
+    ]
+  }
+]

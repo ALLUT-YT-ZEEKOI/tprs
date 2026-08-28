@@ -1,0 +1,66 @@
+:root {
+  /* Color — brand (Elementor global kit, confirmed against live logo) */
+  --color-navy: #0f4c81;
+  --color-navy-dark: #0a3760;
+  --color-gold: #ffbf01;
+  --color-sky: #4cc3f2;
+  --color-blue-mid: #2e95ce;
+
+  /* Color — surfaces & text (trx theme scheme_co-default) */
+  --color-bg: #f6f6f6;
+  --color-surface: #ffffff;
+  --color-text: #5e5e5e;
+  --color-text-dark: #1a1919;
+  --color-text-light: #6b6b6b; /* darkened from the source site's #9c9c9c — that value fails WCAG AA (2.54:1) against --color-bg; this passes 4.5:1+ */
+  --color-border: #e7e7e7;
+  --color-dark-surface: #1a1919;
+  --color-on-dark: #ffffff;
+  --color-on-navy: #ffffff;
+
+  /* Typography */
+  --font-primary: "Outfit", "Segoe UI", system-ui, sans-serif;
+
+  --fs-h1: clamp(2.25rem, 1.6rem + 2.6vw, 3.75rem);
+  --fs-h2: clamp(1.875rem, 1.5rem + 1.6vw, 2.75rem);
+  --fs-h3: clamp(1.5rem, 1.3rem + 0.9vw, 2rem);
+  --fs-h4: clamp(1.25rem, 1.1rem + 0.6vw, 1.5rem);
+  --fs-h5: 1.125rem;
+  --fs-h6: 1rem;
+  --fs-body: 1rem;
+  --fs-small: 0.875rem;
+  --fs-nav: 0.9375rem;
+  --fs-button: 0.9375rem;
+
+  --lh-heading: 1.15;
+  --lh-body: 1.6;
+
+  --fw-regular: 400;
+  --fw-medium: 500;
+  --fw-semibold: 600;
+  --fw-bold: 700;
+
+  /* Layout */
+  --container-max: 1290px;
+  --container-pad: 20px;
+  --header-height: 80px;
+  --radius-sm: 3px;
+  --radius-md: 4px;
+  --radius-lg: 8px;
+  --radius-pill: 999px;
+
+  /* Breakpoints (reference only — not usable inside media queries as vars) */
+  --bp-xs: 390px;
+  --bp-sm: 768px;
+  --bp-md: 1024px;
+  --bp-lg: 1440px;
+  --bp-xl: 1920px;
+
+  /* Motion */
+  --ease-default: ease;
+  --dur-fast: 0.2s;
+  --dur-base: 0.3s;
+
+  /* Shadow */
+  --shadow-card: 0 0 20px 0 rgba(0, 0, 0, 0.08);
+  --shadow-hover: 0 4px 24px 0 rgba(0, 0, 0, 0.12);
+}

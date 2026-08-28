@@ -1,0 +1,37 @@
+<section class="reflection section">
+  <div class="container">
+    <div class="section-head reveal" data-reveal>
+      <p class="eyebrow">{{ home.reflection.eyebrow }}</p>
+      <h2>{{ home.reflection.heading }}</h2>
+    </div>
+
+    <div class="reflection__track" data-carousel>
+      <ul class="reflection__list" data-carousel-track>
+        {% for post in home.reflection.posts %}
+        <li class="reflection__card">
+          <a href="{{ post.url }}" class="reflection__link">
+            <div class="reflection__image-wrap">
+              <picture>
+                <source srcset="{{ post.image | webp }}" type="image/webp" />
+                <img src="{{ post.image }}" alt="" loading="lazy" width="420" height="280" class="reflection__image" />
+              </picture>
+            </div>
+            <p class="reflection__date">{{ post.date }}</p>
+            <h3 class="reflection__title">{{ post.title }}</h3>
+            <span class="reflection__readmore">Read more</span>
+          </a>
+        </li>
+        {% endfor %}
+      </ul>
+    </div>
+
+    <div class="carousel-nav">
+      <button type="button" class="carousel-nav__btn" data-carousel-prev aria-label="Previous">
+        <svg width="8" height="14" viewBox="0 0 8 14" aria-hidden="true"><path d="M7 1L1 7l6 6" stroke="currentColor" stroke-width="1.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </button>
+      <button type="button" class="carousel-nav__btn" data-carousel-next aria-label="Next">
+        <svg width="8" height="14" viewBox="0 0 8 14" aria-hidden="true"><path d="M1 1l6 6-6 6" stroke="currentColor" stroke-width="1.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </button>
+    </div>
+  </div>
+</section>

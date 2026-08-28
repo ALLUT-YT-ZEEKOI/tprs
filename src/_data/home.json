@@ -1,0 +1,84 @@
+{
+  "hero": {
+    "_NOTE": "Live site's Slider Revolution widget renders a second slide (id 116) with no caption layers in server-side HTML — its content is populated client-side by the RevSlider runtime we're not replicating. Only slide 1's copy was recoverable from source; built as a single hero for now.",
+    "kicker": "TPRS Glass",
+    "headline": "Trusted Leader in the\nGlass Industry",
+    "video": "/assets/img/hero/tprs-hero.mp4",
+    "poster": "/assets/img/hero/tprs-hero-poster.jpg",
+    "posterPortrait": "/assets/img/hero/tprs-hero-poster-portrait.jpg",
+    "cta": { "label": "Explore Solutions", "url": "/tprs-tuffsafe/" }
+  },
+  "intro": {
+    "eyebrow": "Glass chronicles",
+    "heading": "Trusted Leader in the Glass Industry",
+    "body": "TPRS is a trusted leader in the glass industry with over three decades of expertise, delivering innovative and standardized glass solutions across diverse sectors such as architecture, automotive, vertical mobility, white goods, marine, and engineering. Built on the TREE values of Transparency, Responsibility, Efficiency, and Empowerment, TPRS stands apart through its strong commitment to sustainability, innovation, and excellence. TPRS Glass holds both domestic and international certifications, creating a perfect blend of advanced technology and unparalleled industry standards to meet the demands of today while remaining committed to sustainability and customer satisfaction.",
+    "tree": [
+      { "letter": "T", "word": "Transparency" },
+      { "letter": "R", "word": "Responsibility" },
+      { "letter": "E", "word": "Efficiency" },
+      { "letter": "E", "word": "Empowerment" }
+    ]
+  },
+  "reflection": {
+    "eyebrow": "Glass chronicles",
+    "heading": "The Reflection",
+    "posts": [
+      { "date": "September 24, 2025", "title": "Types of Elevators: Glass Requirements for Every System", "url": "/types-of-elevators/", "image": "/assets/img/blog/types-of-elevators.jpg" },
+      { "date": "August 4, 2025", "title": "Reducing Drag, Increasing Efficiency: How Glass Design Impacts Train Performance", "url": "/train-performance-and-efficiency/", "image": "/assets/img/blog/train-performance.jpg" },
+      { "date": "July 20, 2025", "title": "R-Value vs U-Value: Which Matters More for Energy Efficiency?", "url": "/difference-between-r-value-and-u-value/", "image": "/assets/img/blog/r-value-vs-u-value.jpg" },
+      { "date": "July 9, 2025", "title": "Through the Glass: Understanding Automobile Glass — Types, Functions & Innovations", "url": "/automobile-glass/", "image": "/assets/img/blog/automobile-glass.jpg" }
+    ]
+  },
+  "spotlight": {
+    "eyebrow": "Glass Edge",
+    "heading": "Spotlight and stories",
+    "items": [
+      { "number": "01", "category": "TPRS", "title": "TPRS Glass at bauma Conexpo India 2026", "url": "/tprs-glass-at-bauma-conexpo-india-2026/" },
+      { "number": "02", "category": "TPRS", "title": "Three Decades of Partnership. A Shared Vision for the Future.", "url": "/three-decades-of-partnership-a-shared-vision-for-the-future/" },
+      { "number": "03", "category": "TPRS", "title": "Inspiring the Next Generation: An Industrial Visit of Students from M.O.P. Vaishnav College for Women", "url": "/inspiring-the-next-generation-an-industrial-visit-of-students-from-m-o-p-vaishnav-college-for-women/" },
+      { "number": "04", "category": "TPRS", "title": "Discover Innovation with TPRS Glass at INTERNATIONAL RAIL COACH EXPO 2026, Chennai", "url": "/discover-innovation-with-tprs-glass-at-international-rail-coach-expo-2026-chennai/" },
+      { "number": "05", "category": "TPRS", "title": "TPRS Wins the Leading Glass Processor Award at the Glass Bulletin Awards", "url": "/glass-bulletin-awards/" }
+    ]
+  },
+  "latestUpdate": {
+    "eyebrow": "Glass Edge",
+    "heading": "Latest Update",
+    "title": "Meet TPRS Glass at bauma Conexpo India 2026",
+    "dates": "15–18 September 2026",
+    "location": "India Expo Centre, Greater Noida",
+    "booth": "Hall No. H9 | Booth No. B12",
+    "tagline": "Come with a challenge. Leave with possibilities.",
+    "cta": { "label": "Know More", "url": "/tprs-glass-at-bauma-conexpo-india-2026/" }
+  },
+  "legacy": {
+    "eyebrow": "Our legacy",
+    "heading": "Trusted Leader in the Glass Industry.",
+    "background": "/assets/img/sections/legacy-bg.jpg",
+    "stats": [
+      { "value": 350, "suffix": "+", "label": "Women Employees" },
+      { "value": 2000, "suffix": "+", "label": "Employees" },
+      { "value": 30, "suffix": "+", "label": "years" },
+      { "value": 20, "suffix": "+", "label": "countries" }
+    ]
+  },
+  "glassFocus": {
+    "eyebrow": "glass focus",
+    "heading": "Stories in Glass",
+    "projects": [
+      { "title": "Prestige Trade Tower, Bangalore", "category": "Construction", "url": "/portfolio/prestige-trade-tower/", "image": "/assets/img/projects/prestige-trade-tower.jpg" },
+      { "title": "Hotel Conrad, Bangalore", "category": "Construction", "url": "/portfolio/hotel-conrad-bangalore/", "image": "/assets/img/projects/hotel-conrad-bangalore.jpg" },
+      { "title": "TAJ Bengaluru", "category": "Construction", "url": "/portfolio/taj-bengaluru/", "image": "/assets/img/projects/taj-bengaluru.jpg" },
+      { "title": "VR Mall, Chennai", "category": "Construction", "url": "/portfolio/vr-mall-chennai/", "image": "/assets/img/projects/vr-mall-chennai.jpg" }
+    ]
+  },
+  "sustainability": {
+    "eyebrow": "Sustainability",
+    "heading": "Shape Tomorrow With Us",
+    "background": "/assets/img/sections/sustainability-bg.jpg",
+    "cta": { "label": "Know More", "url": "/sustainability/" }
+  },
+  "glassHub": {
+    "eyebrow": "Glass Hub",
+    "heading": "The Dimension"
+  }
+}

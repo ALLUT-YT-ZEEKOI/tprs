@@ -1,0 +1,64 @@
+---
+layout: layouts/page.njk
+title: FAQs
+description: Find quick answers to frequently asked questions about TPRS products, services, and support to help you make informed decisions with ease.
+pageTitle: FAQs
+pageSubtitle: Answers You Need
+heroImage: /assets/img/about/factory-banner.jpg
+breadcrumbTrail:
+  - label: Resources
+  - label: FAQs
+extraCss:
+  - /assets/css/pages/inner-page.css
+  - /assets/css/pages/faq.css
+---
+{% from "partials/accordion.njk" import accordion %}
+
+<section class="section section--tight">
+  <div class="container">
+    <div class="prose reveal" data-reveal>
+      <p>Find quick answers to frequently asked questions about TPRS products, services, and support to help you make informed decisions with ease.</p>
+    </div>
+
+    <nav class="faq-jump" aria-label="FAQ categories">
+      <ul class="faq-jump__list">
+        {% for cat in faqCategories %}
+        <li><a href="#{{ cat.slug }}" class="faq-jump__link">{{ cat.category }}</a></li>
+        {% endfor %}
+      </ul>
+    </nav>
+  </div>
+</section>
+
+{% for cat in faqCategories %}
+<section class="section section--tight faq-category{% if loop.index0 % 2 == 1 %} bg-alt{% endif %}" id="{{ cat.slug }}">
+  <div class="container">
+    <div class="section-head reveal" data-reveal>
+      <p class="eyebrow">{{ loop.index }} / {{ faqCategories.length }}</p>
+      <h2>{{ cat.category }}</h2>
+    </div>
+    {{ accordion(cat.items, cat.slug) }}
+  </div>
+</section>
+{% endfor %}
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {% for cat in faqCategories %}
+    {% for item in cat.items %}
+    {
+      "@type": "Question",
+      "name": {{ item.title | dump | safe }},
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": {{ item.content | dump | safe }}
+      }
+    }{% if not loop.last %},{% endif %}
+    {% endfor %}{% if not loop.last %},{% endif %}
+    {% endfor %}
+  ]
+}
+</script>

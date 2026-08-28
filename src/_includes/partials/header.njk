@@ -1,0 +1,45 @@
+<header class="site-header" data-header>
+  <div class="site-header__bar">
+    <div class="container site-header__inner">
+      <a href="/" class="site-header__logo" aria-label="{{ site.name }} — Home">
+        <img src="/assets/img/logo/tprs-logo-white.png" alt="{{ site.name }}" width="220" height="100" />
+      </a>
+
+      <nav class="site-nav" aria-label="Primary">
+        <ul class="site-nav__list">
+          {% include "partials/mega-menu.njk" %}
+        </ul>
+      </nav>
+
+      <div class="site-header__actions">
+        <div class="lang-switch" data-lang-switch>
+          <button type="button" class="lang-switch__trigger" aria-expanded="false" aria-controls="lang-switch-list">
+            <span class="visually-hidden">Choose language:</span>
+            {{ site.languages[0].label }}
+            <svg width="8" height="5" viewBox="0 0 10 6" aria-hidden="true" focusable="false"><path d="M1 1l4 4 4-4" stroke="currentColor" stroke-width="1.5" fill="none" stroke-linecap="round" stroke-linejoin="round" /></svg>
+          </button>
+          <ul class="lang-switch__list" id="lang-switch-list" hidden>
+            {% for lang in site.languages %}
+            <li><a href="{{ lang.url }}" lang="{{ lang.code }}">{{ lang.label }}</a></li>
+            {% endfor %}
+          </ul>
+        </div>
+
+        <button
+          type="button"
+          class="menu-toggle"
+          data-menu-toggle
+          aria-expanded="false"
+          aria-controls="mobile-nav"
+          aria-label="Open menu"
+        >
+          <span class="menu-toggle__bar"></span>
+          <span class="menu-toggle__bar"></span>
+          <span class="menu-toggle__bar"></span>
+        </button>
+      </div>
+    </div>
+  </div>
+</header>
+
+{% include "partials/mobile-nav.njk" %}

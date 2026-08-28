@@ -1,0 +1,12 @@
+{% macro statCounters(stats) %}
+<ul class="stat-counters" data-counters>
+  {% for stat in stats %}
+  <li class="stat-counters__item reveal" data-reveal data-reveal-delay="{{ loop.index0 * 80 }}">
+    <span class="stat-counters__value">
+      {% if stat.prefix %}{{ stat.prefix }}{% endif %}<span data-counter data-counter-end="{{ stat.value }}">0</span>{% if stat.suffix %}{{ stat.suffix }}{% endif %}
+    </span>
+    <span class="stat-counters__label">{{ stat.label }}</span>
+  </li>
+  {% endfor %}
+</ul>
+{% endmacro %}

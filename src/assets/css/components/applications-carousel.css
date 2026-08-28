@@ -1,0 +1,60 @@
+.applications-carousel {
+  overflow: hidden;
+}
+
+.applications-carousel__track {
+  display: flex;
+  gap: 20px;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  scrollbar-width: none;
+}
+
+.applications-carousel__track::-webkit-scrollbar {
+  display: none;
+}
+
+.application-card {
+  flex: 0 0 240px;
+  aspect-ratio: 3 / 4;
+  border-radius: var(--radius-md);
+  background-size: cover;
+  background-position: center;
+  scroll-snap-align: start;
+  position: relative;
+  overflow: hidden;
+}
+
+.application-card__link {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  height: 100%;
+  padding: 20px;
+  color: #fff;
+}
+
+.application-card__overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(180deg, rgba(10, 14, 24, 0) 40%, rgba(10, 14, 24, 0.85) 100%);
+  transition: background var(--dur-base) var(--ease-default);
+}
+
+.application-card:hover .application-card__overlay {
+  background: linear-gradient(180deg, rgba(15, 76, 129, 0.2) 0%, rgba(10, 14, 24, 0.9) 100%);
+}
+
+.application-card__title {
+  position: relative;
+  color: #fff;
+  font-size: var(--fs-h6);
+}
+
+.application-card__tagline {
+  position: relative;
+  color: rgba(255, 255, 255, 0.8);
+  font-size: var(--fs-small);
+  margin-top: 4px;
+}

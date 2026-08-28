@@ -1,0 +1,10 @@
+[
+  { "label": "Automobile", "tagline": "Reflections in Motion.", "url": "/automotive/", "image": "/assets/img/applications/Automobiles-1.jpg" },
+  { "label": "Locomotive", "tagline": "Tracks of Precision.", "url": "/locomotive/", "image": "/assets/img/applications/Locomotives-1.jpg" },
+  { "label": "Marine", "tagline": "Waves Through Clarity.", "url": "/marine/", "image": "/assets/img/applications/Marines-1.jpg" },
+  { "label": "Earth Movers", "tagline": "Strength Forged Forward.", "url": "/earth-movers/", "image": "/assets/img/applications/Earthmovers-2.jpg" },
+  { "label": "White Goods", "tagline": "Everyday Brilliance Engineered.", "url": "/white-goods/", "image": "/assets/img/applications/White-goods-3.jpg" },
+  { "label": "Vertical Mobility", "tagline": "Elevations Defined Elegantly.", "url": "/vertical-mobility/", "image": "/assets/img/applications/vertical-mobility-2.jpg" },
+  { "label": "Engineered Glass", "tagline": "Form Meets Function.", "url": "/engineered-glass/", "image": "/assets/img/applications/Application-Image-For-Guaget.jpg" },
+  { "label": "Architecture", "tagline": "Spaces Framed Perfectly.", "url": "/architecture/", "image": "/assets/img/applications/Architecture.jpg" }
+]

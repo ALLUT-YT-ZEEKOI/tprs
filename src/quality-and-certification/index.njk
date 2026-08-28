@@ -1,0 +1,93 @@
+---
+layout: layouts/page.njk
+title: Quality and Certification
+description: TPRS Glass upholds the highest standards of quality through rigorous process controls, meticulous manufacturing protocols and advanced testing methodologies
+_DESCRIPTION_NOTE: "Live site's <meta name=description> and og:description both cut off mid-sentence at ~156/430 chars with no ellipsis — ported verbatim. The full, untruncated version of this copy IS used as the on-page intro paragraph body content below."
+pageTitle: Our Promise
+pageSubtitle: Reflections of Quality
+heroImage: /assets/img/about/quality-certification-hero.jpg
+breadcrumbTrail:
+  - label: About TPRS
+  - label: Quality & Certification
+extraCss:
+  - /assets/css/pages/inner-page.css
+  - /assets/css/pages/about.css
+extraJs:
+  - /assets/js/counters.js
+---
+{% from "partials/cert-badges.njk" import certBadges %}
+{% from "partials/stat-counters.njk" import statCounters %}
+
+<section class="section">
+  <div class="container">
+    <div class="prose reveal" data-reveal>
+      <p>TPRS Glass upholds the highest standards of quality through rigorous process controls, meticulous manufacturing protocols and advanced testing methodologies at every stage. All products adhere to international certifications ensuring consistency, reliability, and performance. The company&rsquo;s dedicated quality assurance team conducts mechanical strength tests, optical inspections, and environmental simulations to guarantee that each glass solution meets or exceeds industry benchmarks.</p>
+    </div>
+  </div>
+</section>
+
+<section class="section bg-alt">
+  <div class="container">
+    <div class="callout reveal" data-reveal>
+      <p class="eyebrow">Assured Quality for EcoSafe Glass</p>
+      <h2>Dowsil Quality Bond Certification</h2>
+      <p>At TPRS, we take pride in holding the Dowsil Quality Bond Certificate. This certification stands as a testament to our unwavering commitment to quality and safety. We are the exclusive South India processor to have earned this prestigious certification, which assures that our EcoSafe glass products meet exceptional quality standards. Your safety and satisfaction are our top priorities.</p>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="section-head reveal" data-reveal style="text-align:center; max-width: none;">
+      <p class="eyebrow">We are certified under Indian, European and Australian Standards</p>
+      <h2>Certifications</h2>
+    </div>
+    {{ certBadges([
+      { "name": "ISO 9001:2016", "description": "International standard for quality management systems demonstrating consistent product quality.", "image": "/assets/img/certifications/iso-9001.jpg" },
+      { "name": "IATF 16949:2016", "description": "International Automotive Task Force (IATF), a globally recognized quality management system standard specifically for the automotive industry.", "image": "/assets/img/certifications/iatf-16949.jpg" },
+      { "name": "ISI 2553 Part 2", "description": "Indian standard specifying glass requirements for Automobile.", "image": "/assets/img/certifications/isi-2553-part2.jpg" },
+      { "name": "ISI 2553 Part 1", "description": "Indian standard specifying glass requirements for Architecture.", "image": "/assets/img/certifications/isi-2553-part1.jpg" },
+      { "name": "E Mark", "description": "Certification for automotive glass meeting European vehicle safety regulations.", "image": "/assets/img/certifications/e-mark.jpg" },
+      { "name": "COP (Conformation of Production)", "description": "Conformity of Production (COP) certification issued by the Automotive Research Association of India (ARAI).", "image": "/assets/img/certifications/cop.gif" },
+      { "name": "CE Marking", "description": "European conformity mark indicating compliance with EU safety, health, and environmental standards.", "image": "/assets/img/certifications/ce-marking.png" },
+      { "name": "AS 1288:2006 Marking", "description": "AS 1288:2006 marking certifies that the glass meets Australian safety and installation standards for architectural use.", "image": "/assets/img/certifications/as-1288.jpg" },
+      { "name": "QNL Certification", "description": "Qatar National Laboratories endorsement for laminated glass quality.", "image": "/assets/img/certifications/qnl-certification.jpg" },
+      { "name": "Dowsil Quality Bond - Structural Glazing Application", "description": "Assurance of quality and reliability for laminated glass interlayers from Dow.", "image": "/assets/img/certifications/dowsil-quality-bond.jpg" },
+      { "name": "Dowsil Quality Bond - Insulating Glazing Application", "description": "Assurance of quality and reliability for laminated glass interlayers from Dow.", "image": "/assets/img/certifications/dowsil-quality-bond.jpg" },
+      { "name": "DOT", "description": "U.S. Department of Transportation certification ensuring automotive glass safety compliance.", "image": "/assets/img/certifications/dot.jpg" }
+    ]) }}
+  </div>
+</section>
+
+<section class="section bg-alt">
+  <div class="container">
+    <div class="prose reveal" data-reveal>
+      <h2>Road Map to Quality</h2>
+      <p>Our journey towards unwavering quality and excellence has been a steadfast one, marked by significant milestones. From obtaining ISO 9001:2000 and E-Mark certifications in 2007 to our current standards of ISO 9001:2015 and IATF 16949:2016, we have consistently raised the bar. Along the way, we&rsquo;ve earned various certifications, including ISI, SGC 3 Star, CE Certification, and AS Certification, making us a name synonymous with quality and commitment to global standards. This roadmap to quality reflects our dedication to delivering products that meet and exceed the highest industry benchmarks.</p>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="section-head reveal" data-reveal style="text-align:center; max-width: none;">
+      <p class="eyebrow">Precision at its Finest</p>
+      <h2>Unit 1 Production Capability</h2>
+      <p style="margin-inline:auto;">At TPRS, we stay ahead of the curve by continuously adapting to ever-changing customer expectations. In recent years, we have made substantial investments in machinery upgrading, boosting production capacity, and embracing automation.</p>
+    </div>
+    {{ statCounters([
+      { "value": 9, "suffix": " Acres", "label": "Pondicherry Plant Area" },
+      { "value": 6, "suffix": " Acres", "label": "Shed Area" },
+      { "value": 80000, "suffix": " Sq.m/Month", "label": "Production Capacity" },
+      { "value": 1600, "suffix": " + 1000 KVA", "label": "Transformer Capacity" }
+    ]) }}
+  </div>
+</section>
+
+<section class="section bg-alt">
+  <div class="container">
+    <blockquote class="pull-quote reveal" data-reveal>
+      When we say the TPRS Promise, it is not just words; it&rsquo;s a commitment from 1200+ families, and we take it seriously.
+    </blockquote>
+  </div>
+</section>

@@ -1,0 +1,56 @@
+.floating-cta {
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  z-index: 400;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-end;
+}
+
+.floating-cta__item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background: var(--color-navy);
+  color: #fff;
+  border-radius: var(--radius-pill);
+  height: 48px;
+  padding: 0 14px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
+  transition: background-color var(--dur-base) var(--ease-default),
+    width var(--dur-base) var(--ease-default);
+}
+
+.floating-cta__item--whatsapp {
+  background: #25d366;
+}
+
+.floating-cta__icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 20px;
+  flex-shrink: 0;
+}
+
+.floating-cta__label {
+  font-size: var(--fs-small);
+  font-weight: var(--fw-medium);
+  max-width: 0;
+  overflow: hidden;
+  white-space: nowrap;
+  opacity: 0;
+  transition: max-width var(--dur-base) var(--ease-default), opacity var(--dur-base) var(--ease-default);
+}
+
+.floating-cta__item:hover .floating-cta__label,
+.floating-cta__item:focus-visible .floating-cta__label {
+  max-width: 120px;
+  opacity: 1;
+}
+
+.floating-cta__item--top {
+  background: var(--color-text-dark);
+}

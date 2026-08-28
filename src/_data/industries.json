@@ -1,0 +1,301 @@
+{
+  "architecture": {
+    "name": "Architecture",
+    "url": "/architecture/",
+    "subtitle": "Spaces That Shape Light and Life",
+    "heroImage": "/assets/img/architecture/architecture-hero.jpg",
+    "brochure": "/catalogue/",
+    "intro": "TPRS offers a diverse range of architectural glass solutions renowned for their superior performance. A comprehensive portfolio delivers an impressive spectrum of aesthetic, energy, and technical properties tailored to fit the Architecture industry. Architects and interior designers benefit from our versatile glass products that inspire creativity in designing and constructing a variety of spaces. TPRS Glass provides customized glass solutions that enhance thermal insulation, energy efficiency, communication and infotainment capabilities, solar protection, as well as safety and security features, empowering designs that are both beautiful and functional.",
+    "glance": {
+      "heading": "At a Glance",
+      "_NOTE": "Live site's counter title literally says 'No. of projects Completed' but the widget's actual data-to-value is 6 with suffix 'M Sqm' — title/metric mismatch on tprsglass.com itself (looks like a mislabeled widget, similar to the About Us mega-menu issue). Ported as-is.",
+      "stat": { "label": "No. of projects Completed", "value": 6, "suffix": "M Sqm" },
+      "clientsHeading": "Check our top clients & partners",
+      "clientsCta": { "label": "View All", "url": "/our-clients/" },
+      "clients": [
+        { "name": "L&T Construction", "logo": "/assets/img/clients/logo-08.png" },
+        { "name": "Prestige Group", "logo": "/assets/img/clients/logo-11.png" },
+        { "name": "Marriott", "logo": "/assets/img/clients/logo-10.png" },
+        { "name": "SOBHA", "logo": "/assets/img/clients/logo-12.png" },
+        { "name": "Baashyaam", "logo": "/assets/img/clients/logo-04.png" },
+        { "name": "MAIA", "logo": "/assets/img/clients/logo-09.png" },
+        { "name": "Express Avenue", "logo": "/assets/img/clients/logo-07.png" },
+        { "name": "Casagrand", "logo": "/assets/img/clients/logo-06.png" },
+        { "name": "Brigade", "logo": "/assets/img/clients/logo-05.png" },
+        { "name": "Appaswamy Real Estates", "logo": "/assets/img/clients/logo-03.png" },
+        { "name": "Ampa", "logo": "/assets/img/clients/logo-02.png" },
+        { "name": "Allianz", "logo": "/assets/img/clients/logo-01.png" },
+        { "name": "Zoho", "logo": "/assets/img/clients/logo-17.png" },
+        { "name": "TVS Emerald", "logo": "/assets/img/clients/logo-16.png" },
+        { "name": "Sun Infraa", "logo": "/assets/img/clients/logo-15.png" },
+        { "name": "Shiv Nadar", "logo": "/assets/img/clients/logo-14.png" },
+        { "name": "SPR City", "logo": "/assets/img/clients/logo-13.png" }
+      ]
+    },
+    "applications": [
+      { "label": "Windows", "image": "/assets/img/architecture/Windows.jpg" },
+      { "label": "Façades", "image": "/assets/img/architecture/Facades.jpg" },
+      { "label": "Curtain Walls", "image": "/assets/img/architecture/curtain-walls.jpg" },
+      { "label": "Partitions", "image": "/assets/img/architecture/Partition.jpg" },
+      { "label": "Balustrades", "image": "/assets/img/architecture/balustrade.jpg" },
+      { "label": "Shower Cubicles", "image": "/assets/img/architecture/Shower-cubicle.jpg" },
+      { "label": "Glass Railings", "image": "/assets/img/architecture/railings.jpg" }
+    ],
+    "projectsHeading": "A Glimpse of What We Have Done for Our Clients",
+    "projectsIntro": "Our clients are the driving force behind our success, which drives us to deliver unrivalled expertise. For the past decade and a half, we've completed diverse architectural glass projects across South India.",
+    "faqs": [
+      { "title": "Why choose TPRS Glass for façade and curtain wall solutions?", "content": "TPRS Glass have proven expertise in large-scale execution, precision fabrication, use of high-performance glass, and a track record with top clients like airports and IT parks." },
+      { "title": "What is a building façade?", "content": "A façade is the exterior face or front of a building, often made of glass, metal, or stone, designed for aesthetic appeal and natural light entry." },
+      { "title": "What materials does TPRS use for modern façades?", "content": "Toughened glass, laminated glass, DGU, Low-E glass, and switchable glass, depending on design and performance needs." },
+      { "title": "What is the purpose of architectural glass in façades?", "content": "It enhances appearance, ensures energy efficiency, offers acoustic comfort, and controls UV and solar gain." },
+      { "title": "What are glass fins?", "content": "Long vertical glass strips mounted perpendicular to façades, used for decoration, shading, or structural stiffening." }
+    ]
+  },
+  "automotive": {
+    "name": "Automotive",
+    "url": "/automotive/",
+    "subtitle": "Reflections in Motion",
+    "heroImage": "/assets/img/automotive/automotive-hero.jpg",
+    "brochure": "/catalogue/",
+    "intro": "TPRS Glass delivers specialised automotive glass solutions for commercial and passenger vehicles, including buses, trucks, and material handling equipment. The advanced in-house facility features expert silk screen printing with custom screen-making, high-precision digital printing, specialized die-making for intricate windshield designs, 3D scanning technology for exact fitment, and rigorous quality assurance. This end-to-end capability enables us to consistently exceed automotive industry standards and confidently support evolving market demands with precision and innovation.",
+    "glance": {
+      "heading": "At a Glance",
+      "stat": { "label": "Buses", "value": 8, "suffix": "+ Lakhs" },
+      "clientsHeading": "Check our top clients & partners",
+      "clientsCta": { "label": "View All", "url": "/our-clients/" },
+      "clients": [
+        { "name": "Ashok Leyland", "logo": "/assets/img/clients/logo-automotive-01.png" },
+        { "name": "Tata Motors", "logo": "/assets/img/clients/logo-automotive-02.png" },
+        { "name": "Volvo", "logo": "/assets/img/clients/logo-automotive-03.png" },
+        { "name": "Indian Railways", "logo": "/assets/img/clients/logo-automotive-04.png" },
+        { "name": "JCB", "logo": "/assets/img/clients/logo-automotive-05.png" },
+        { "name": "KSRTC", "logo": "/assets/img/clients/logo-automotive-06.png" },
+        { "name": "Kerala State Road Transport Corporation", "logo": "/assets/img/clients/logo-automotive-07.png" },
+        { "name": "Switch", "logo": "/assets/img/clients/logo-automotive-08.png" },
+        { "name": "Eicher", "logo": "/assets/img/clients/logo-automotive-09.png" },
+        { "name": "Govt. of Telangana Transport Department", "logo": "/assets/img/clients/logo-automotive-10.png" }
+      ]
+    },
+    "applications": [
+      { "label": "Windshields", "image": "/assets/img/automotive/Windshields.jpg" },
+      { "label": "Side Windows", "image": "/assets/img/automotive/Side-Windows.jpg" },
+      { "label": "Rear Windows", "image": "/assets/img/automotive/Rear-Windows.jpg" },
+      { "label": "Sunroofs", "image": "/assets/img/automotive/Sunroofs.jpg" },
+      { "label": "Side Pasted Glass", "image": "/assets/img/automotive/Side-Pasted-Glass.jpg" }
+    ],
+    "faqs": [
+      { "title": "Where is glass used in buses?", "content": "Glass is used in the Windshield, Side Windows, Rear Glass, Roof/Skylight Glass, Entry and Exit Doors, Emergency Exit Windows, and Digital Glass Displays." },
+      { "title": "What are the main glass components in a bus?", "content": "Key components include the Front Windshield, Side Windows, Rear Glass, Door Glass, Roof Skylights, and Emergency Exit Glass Panels." },
+      { "title": "What makes TPRS Glass a unique solution in the automobile industry?", "content": "TPRS Glass offers end-to-end in-house facilities, including toughening, lamination, precision bent glass and ceramic printing, ensuring superior durability, clarity, and reliability." },
+      { "title": "What is the standard glass used for the bus windshield?", "content": "Laminated glass is used for windshields to ensure safety, sound insulation, and clear visibility." },
+      { "title": "What is the tint percentage in bus windshields and windows?", "content": "Windshields typically have 70% visible light transmission, while side windows have around 50% for privacy and glare reduction." }
+    ]
+  },
+  "earth-movers": {
+    "name": "Earth Movers",
+    "url": "/earth-movers/",
+    "_NOTE": "Live site's hero eyebrow text literally renders 'Earth movers' (lowercase m) while the page's own <title> tag says 'Earth Movers'. Used the properly-cased version here for consistency with the nav/title; the lowercase variant is a minor copy inconsistency on the live site.",
+    "subtitle": "Tough Glasses for the Toughest Jobs",
+    "heroImage": "/assets/img/earth-movers/earth-movers-hero.jpg",
+    "brochure": "/catalogue/",
+    "intro": "TPRS Glass delivers robust, high-performance glass solutions specifically engineered for earthmoving equipment operating in demanding construction and mining environments. Our specialized glass products for excavators, bulldozers, wheel loaders, graders, and other heavy machinery are designed to withstand extreme conditions including flying debris, harsh weather, temperature fluctuations, and high-impact situations. All glass products feature enhanced UV protection, anti-glare properties, and are designed to maintain structural integrity under vibration and extreme working conditions common in construction and mining operations.",
+    "applications": [
+      { "label": "Cabin Windows", "image": "/assets/img/earth-movers/Cabin-Windows.jpg" },
+      { "label": "Rear View Glass", "image": "/assets/img/earth-movers/Rear-View-Glass.jpg" },
+      { "label": "Side Windows", "image": "/assets/img/earth-movers/Side-Windows.jpg" },
+      { "label": "Side Doors", "image": "/assets/img/earth-movers/Side-Doors.jpg" },
+      { "label": "Windshield", "image": "/assets/img/earth-movers/Windshield.jpg" }
+    ],
+    "faqs": [
+      { "title": "Where is glass used in earthmoving equipment?", "content": "Primarily in Driver/Operator Cabins, including Windshields, Side Windows, Rear Glass, and Door Panels." },
+      { "title": "Which machines fall under the Earthmover segment?", "content": "Excavators, Bulldozers, Dump Trucks, Backhoes, Loaders, Graders, Compactors, and Scrapers." },
+      { "title": "Why is glass essential in earthmovers?", "content": "It ensures visibility, operator safety, weather protection, and improves comfort inside the cabin." },
+      { "title": "What is TPRS's specialization in the earthmover sector?", "content": "TPRS specializes in defogger windshields, rear defogger glass, laminated bend glass (L-shaped), sash windows, glass-in-glass assemblies, and toughened safety glass." },
+      { "title": "Where can TPRS Glass be used in earthmoving equipment?", "content": "In construction, mining, airport ground support, agriculture, and infrastructure sectors." }
+    ]
+  },
+  "engineered-glass": {
+    "name": "Engineered Glass",
+    "url": "/engineered-glass/",
+    "subtitle": "Form Meets Function",
+    "heroImage": "/assets/img/engineered-glass/engineered-glass-hero.jpg",
+    "brochure": "/catalogue/",
+    "intro": "TPRS Glass delivers advanced, durable glass solutions engineered for industrial and residential engineering applications. Our specialized glass products are crafted for LED Lighting, Switchboards, Gauges, Viewing Glass in X-Ray Rooms, etc., ensuring optimal visibility, safety, and reliability even in the most challenging environments. With robust customization options and the latest manufacturing technology, TPRS Glass transforms industrial equipment with innovative, high-performance glass tailored to meet modern engineering demands.",
+    "applications": [
+      { "label": "LED Lights", "image": "/assets/img/engineered-glass/LED-Lights.jpg" },
+      { "label": "Touch Panels", "image": "/assets/img/engineered-glass/Touch-Panels.jpg" },
+      { "label": "Gauges", "image": "/assets/img/engineered-glass/Gauges.jpg" }
+    ],
+    "faqs": [
+      { "title": "What is the role of glass in LED lighting systems?", "content": "Glass plays a vital role in LED lighting by providing light diffusion, clarity, and protection. TPRS Glass processes precision toughened glass that enhances brightness and ensures uniform light distribution in LED fixtures." },
+      { "title": "How does glass maintain its finish over time in switch boards?", "content": "TPRS Glass remains scratch-free and glossy even after long-term use, unlike traditional plastic panels." },
+      { "title": "Why is glass preferred over plastic in high-temperature lighting?", "content": "Unlike plastic, TPRS Glass can endure extreme heat without warping or discoloration, ensuring consistent performance." },
+      { "title": "How does toughened glass improve electrical panel safety?", "content": "TPRS Tuffsafe - Toughened Glass provides superior insulation, preventing shocks and protecting internal circuits from heat." },
+      { "title": "What are the advantages of using back-painted (lacquered) glass in switches?", "content": "TPRS Glass offers rich, customizable colors through back-painting, enhancing design flexibility and luxury aesthetics." }
+    ]
+  },
+  "locomotive": {
+    "name": "Locomotive",
+    "url": "/locomotive/",
+    "subtitle": "Engineered for Precision and Aerodynamic Performance",
+    "heroImage": "/assets/img/locomotive/locomotive-hero.jpg",
+    "brochure": "/catalogue/",
+    "intro": "TPRS Glass provides high-performance glass solutions designed to meet the strict safety, durability, and aesthetic demands of the railway industry. The cutting-edge manufacturing processes ensure railway glass that delivers optimal performance, enhanced energy efficiency, and superior comfort for passengers. Serving high-speed trains, metro systems, and freight locomotives. TPRS Glass offers customized glass products engineered to address the unique challenges of railway applications with reliability and precision.",
+    "glance": {
+      "heading": "At a Glance",
+      "stat": { "label": "Panels", "value": 37961, "suffix": "" },
+      "clientsHeading": "Check our top clients & partners",
+      "clientsCta": { "label": "View All", "url": "/our-clients/" },
+      "clients": [
+        { "name": "ACME Mobility Solutions", "logo": "/assets/img/clients/logo-locomotive-01.png" },
+        { "name": "Air Breeze", "logo": "/assets/img/clients/logo-locomotive-02.png" },
+        { "name": "Alexander Dennis", "logo": "/assets/img/clients/logo-locomotive-03.png" },
+        { "name": "BEML", "logo": "/assets/img/clients/logo-locomotive-04.png" },
+        { "name": "BFG", "logo": "/assets/img/clients/logo-locomotive-05.png" },
+        { "name": "Indian Railways", "logo": "/assets/img/clients/logo-locomotive-06.png" },
+        { "name": "Dynamic Air", "logo": "/assets/img/clients/logo-locomotive-07.png" },
+        { "name": "KINECO", "logo": "/assets/img/clients/logo-locomotive-08.png" },
+        { "name": "Medha", "logo": "/assets/img/clients/logo-locomotive-09.png" },
+        { "name": "Mitech Doors", "logo": "/assets/img/clients/logo-locomotive-10.png" },
+        { "name": "UE", "logo": "/assets/img/clients/logo-locomotive-11.png" }
+      ]
+    },
+    "applications": [
+      { "label": "Driver Cabin Windows", "image": "/assets/img/locomotive/Driver-Cabin-Windows.jpg" },
+      { "label": "Instrument Panels", "image": "/assets/img/locomotive/Instrument-Panels.jpg" },
+      { "label": "Interior Partitions", "image": "/assets/img/locomotive/Interior-Partitions.jpg" },
+      { "label": "Cabin Mirrors", "image": "/assets/img/locomotive/Cabin-Mirrors.jpg" },
+      { "label": "Emergency Exit Windows", "image": "/assets/img/locomotive/Emergency-Exit-Windows.jpg" },
+      { "label": "Passenger Windows", "image": "/assets/img/locomotive/Passenger-Windows.jpg" },
+      { "label": "Switchable Glass for Train Roofs", "image": "/assets/img/locomotive/Switchable-Glass-Train-Roofs.jpg" },
+      { "label": "Train Windshield", "image": "/assets/img/locomotive/Train-Windshield.jpg" },
+      { "label": "Headcode", "image": "/assets/img/locomotive/Headcode.jpg" },
+      { "label": "Destination Board", "image": "/assets/img/locomotive/Destination-Board.jpg" }
+    ],
+    "faqs": [
+      { "title": "What is TPRS's role in the locomotive sector?", "content": "TPRS processes high-performance safety and specialty glass solutions for trains, metros, and locomotives, ensuring durability, comfort, and aesthetics." },
+      { "title": "What are TPRS's specializations in locomotive glass?", "content": "TPRS specializes in Driver and Passenger Windows, Door Glass, Emergency Exit Glass, Train Windshields, Switchable Glass, DGU with Blinds, Cabin Mirrors, and Nosecone Windshields." },
+      { "title": "Where is glass used in trains and locomotives?", "content": "In driver windshields, passenger windows, AC coach doors, emergency exits, destination boards, roof panels, and interior partitions." },
+      { "title": "What type of glass is used for train windshields?", "content": "TPRS Lamisafe laminated glass provides high impact resistance and optical clarity." },
+      { "title": "Why is laminated glass preferred for train windshields?", "content": "It ensures safety against flying debris, maintains visibility under impact, and offers sound insulation." }
+    ]
+  },
+  "marine": {
+    "name": "Marine",
+    "url": "/marine/",
+    "subtitle": "Waves Through Clarity",
+    "heroImage": "/assets/img/marine/marine-hero.jpg",
+    "brochure": "/catalogue/",
+    "intro": "TPRS Glass delivers specialized glass solutions designed to withstand the demanding conditions of the Maritime Industry, including Saltwater exposure, extreme Weather, and Temperature variations. Our products prioritize Safety, Durability, and Visibility for vessels ranging from Luxury Yachts to Commercial Ships. Key offerings include Laminated and Toughened Glass with advanced coatings for UV protection and Insulation, customizable options such as Tinted and Decorative finishes, and high-quality Interlayers for enhanced Strength.",
+    "applications": [
+      { "label": "Windows", "image": "/assets/img/marine/Windows.jpg" },
+      { "label": "Roof Top Glass", "image": "/assets/img/marine/Roof-Top-Glass.jpg" },
+      { "label": "Windshield", "image": "/assets/img/marine/Windshield.jpg" },
+      { "label": "Mirrors", "image": "/assets/img/marine/Mirrors.jpg" }
+    ],
+    "faqs": [
+      { "title": "What are TPRS's specializations in the marine segment?", "content": "TPRS specializes in laminated glass with SentryGlas™ lonoplast interlayers, toughened safety glass, DGU (double-glazed) flat glass, and custom marine mirrors." },
+      { "title": "Where is TPRS glass used in marine applications?", "content": "TPRS Glass is used in Ship and Yacht Windows, Windshields, Roof Panels, Control Cabins, and Interior Mirrors. It ensures visibility, safety, insulation, and aesthetic appeal in demanding Marine environments." },
+      { "title": "What are the main types of marine glass supplied by TPRS?", "content": "Laminated Glass (Sentry Interlayer), Toughened Glass, DGU Glass (Double-Glazed), Flat Windows, Roof Glass, Mirrors, and Windshields." },
+      { "title": "Why choose TPRS for marine glass solutions?", "content": "TPRS provides custom-engineered, Heat-Treated, Laminated, and DGU Marine Glass that offers durability, clarity, and high-performance safety." },
+      { "title": "Why is laminated glass with a SentryGlas™ interlayer used in marine applications?", "content": "Because the SentryGlas™ interlayer interlayer provides superior strength, durability, and moisture resistance, making the glass ideal for high-humidity, high-wind, and marine environments." }
+    ]
+  },
+  "refrigeration": {
+    "name": "Refrigeration",
+    "url": "/refrigeration/",
+    "subtitle": "Refreshingly Transparent",
+    "heroImage": "/assets/img/refrigeration/refrigeration-hero.jpg",
+    "brochure": "/catalogue/",
+    "intro": "TPRS Glass delivers advanced glass solutions tailored for Refrigeration applications in both Commercial and Residential settings. Our products enhance Energy Efficiency, Visibility, and Durability while maintaining stringent Hygiene standards. Key offerings include Insulated Glass Units (IGUs) with Low-Emissivity coatings and Argon fill for superior Thermal Performance, Anti-Fog Display Glass for clear visibility in high-Humidity environments, and customizable Glass Door Panels with Printed Branding and Decorative finishes. Each solution is engineered to optimize Temperature Control, reduce Energy Consumption, and withstand the rigors of frequent opening cycles in Retail, Food Service, and Domestic Refrigeration systems.",
+    "applications": [
+      { "label": "Refrigerator Doors", "image": "/assets/img/refrigeration/Refrigerator-Doors.jpg" },
+      { "label": "Shelving", "image": "/assets/img/refrigeration/Shelving.jpg" },
+      { "label": "Display Cases Glass", "image": "/assets/img/refrigeration/Display-Cases-Glass.jpg" },
+      { "label": "Bakery Counters", "image": "/assets/img/refrigeration/Bakery-Counters.jpg" }
+    ],
+    "faqs": [
+      { "title": "What are TPRS's specializations in the refrigeration industry?", "content": "TPRS specializes in energy-efficient, anti-fog glass systems such as TPRS Ecosafe (IGU doors), TPRS Tuffsafe (shelves), and TPRS Archsafe (curved glass)." },
+      { "title": "Where is glass used in refrigeration equipment?", "content": "In Display Doors, Freezer Doors, Glass Canopies, Interior Shelves, and Counter Covers." },
+      { "title": "What are the main glass types TPRS supplies for refrigeration?", "content": "IGU (Insulated Glazing Units), Defogger Glass, Curved Glass, and Toughened Shelving Glass." },
+      { "title": "Why is glass important in refrigeration systems?", "content": "It ensures visibility, insulation, hygiene, and contributes to energy savings by maintaining temperature consistency." },
+      { "title": "What is the purpose of IGU glass in refrigeration?", "content": "It provides insulation, prevents condensation, and improves energy efficiency by maintaining low internal temperatures." }
+    ]
+  },
+  "vertical-mobility": {
+    "name": "Vertical Mobility",
+    "url": "/vertical-mobility/",
+    "subtitle": "Elevations Defined Elegantly",
+    "heroImage": "/assets/img/vertical-mobility/vertical-mobility-hero.jpg",
+    "brochure": "/catalogue/",
+    "intro": "TPRS Glass specializes in advanced glass solutions for Elevators and Escalators, catering with unmatched Quality and Reliability for safer, more elegant Vertical Mobility systems. From humble beginnings, TPRS proudly supports the industry with over 2,500 Lift Door Glasses and 50+ Escalator Panels each month. Vertical Mobility covers key applications such as Car Doors, Landing Doors, Cabin Panels, and Balustrades. Our products include Double and Triple-Layered Laminated Glass, Glass with Countersunk, Step Laminated and Multi-Layered Glass, Borosilicate Laminated Glass, Fire-rated Glass, Smart Glass, Digitally Printed Glass, Curved Laminates, Mirrored Panels, Anti-Skid Glass, and more.",
+    "glance": {
+      "heading": "At a Glance",
+      "stat": { "label": "Lift Doors", "value": 1.2, "suffix": "+ Lakhs" },
+      "clientsHeading": "Check our top clients & partners",
+      "_NOTE": "Live site's client logo strip literally labels one logo 'Mitsubishi Motors' in this elevator/escalator industry context (rather than Mitsubishi Electric, which makes elevators) — ported as-is from the source alt/caption text.",
+      "clientsCta": { "label": "View All", "url": "/our-clients/" },
+      "clients": [
+        { "name": "Fermator", "logo": "/assets/img/clients/logo-vertical-mobility-01.png" },
+        { "name": "Fujitec", "logo": "/assets/img/clients/logo-vertical-mobility-02.png" },
+        { "name": "Johnson", "logo": "/assets/img/clients/logo-vertical-mobility-03.png" },
+        { "name": "KONE", "logo": "/assets/img/clients/logo-vertical-mobility-04.png" },
+        { "name": "Mitsubishi Motors", "logo": "/assets/img/clients/logo-vertical-mobility-05.png" },
+        { "name": "OTIS", "logo": "/assets/img/clients/logo-vertical-mobility-06.png" },
+        { "name": "Schindler", "logo": "/assets/img/clients/logo-vertical-mobility-07.png" },
+        { "name": "Wittur", "logo": "/assets/img/clients/logo-vertical-mobility-08.png" }
+      ]
+    },
+    "applications": [
+      { "label": "Elevator Doors", "image": "/assets/img/vertical-mobility/Elevator-Doors.jpg" },
+      { "label": "Escalator Railings", "image": "/assets/img/vertical-mobility/Escalator-Railings.jpg" },
+      { "label": "Cabin Panels", "image": "/assets/img/vertical-mobility/Cabin-Panels.jpg" },
+      { "label": "Control Screens (LOP/COP)", "image": "/assets/img/vertical-mobility/Control-Screens.jpg" },
+      { "label": "Mirrors", "image": "/assets/img/vertical-mobility/Mirrors.jpg" },
+      { "label": "Balustrade Panels", "image": "/assets/img/vertical-mobility/Balustrade-Panels.jpg" }
+    ],
+    "faqs": [
+      { "title": "Which products does TPRS supply to the vertical mobility industry?", "content": "TPRS supplies Side and Balustrade Panels, Landing Panels, Cabin Glass, Doors, LOP/COP Panels, Mirrors, and Fire-Rated and Printed Decorative Glass." },
+      { "title": "What glass types are commonly used in escalators and elevators?", "content": "Toughened glass, Laminated glass, Printed glass, Fire-rated glass, Mesh/Fabric laminated glass, and Switchable glass." },
+      { "title": "Why is glass preferred in modern escalator and elevator design?", "content": "It offers a sleek, open, and contemporary aesthetic while ensuring safety, durability, and easy maintenance." },
+      { "title": "Where is glass used in escalators?", "content": "In side panels/balustrades, landing panels, and end panels to enhance safety and aesthetics." },
+      { "title": "What are balustrade panels?", "content": "Transparent or tinted side panels on escalators that provide protection while maintaining visibility and design appeal." }
+    ]
+  },
+  "white-goods": {
+    "name": "White Goods",
+    "url": "/white-goods/",
+    "subtitle": "Everyday Brilliance Engineered",
+    "heroImage": "/assets/img/white-goods/white-goods-hero.jpg",
+    "brochure": "/catalogue/",
+    "intro": "TPRS Glass provides innovative glass solutions for the White Goods industry, catering to appliances including Refrigeration Equipment, Stoves, Ovens, and Commercial Kitchen Equipment. Our specialized glass products combine functionality with aesthetic appeal, ensuring optimal performance in Domestic and Commercial appliance applications. We offer specialized coatings for energy efficiency, custom printing for branding, and various thickness options to meet specific appliance requirements while maintaining optimal temperature control.",
+    "glance": {
+      "_NOTE": "This page has no 'At a Glance' stat counter widget on the live site — it goes straight from the intro to the clients strip. Only clientsHeading/clients are present; there is no glance.heading/stat.",
+      "clientsHeading": "Check our top clients & partners",
+      "clientsCta": { "label": "View All", "url": "/our-clients/" },
+      "clients": [
+        { "name": "Butterfly", "logo": "/assets/img/clients/logo-white-goods-01.png" },
+        { "name": "ellora", "logo": "/assets/img/clients/logo-white-goods-02.png" },
+        { "name": "elica", "logo": "/assets/img/clients/logo-white-goods-03.png" },
+        { "name": "Preethi", "logo": "/assets/img/clients/logo-white-goods-04.png" },
+        { "name": "Williams", "logo": "/assets/img/clients/logo-white-goods-05.png" },
+        { "name": "Eureka Forbes", "logo": "/assets/img/clients/logo-white-goods-06.png" },
+        { "name": "Haier", "logo": "/assets/img/clients/logo-white-goods-07.png" },
+        { "name": "Western", "logo": "/assets/img/clients/logo-white-goods-08.png" }
+      ]
+    },
+    "applications": [
+      { "label": "Oven doors", "image": "/assets/img/white-goods/Oven-Doors.jpg" },
+      { "label": "Washing Machine Panels", "image": "/assets/img/white-goods/Washing-Machine-Panels.jpg" },
+      { "label": "Microwave Windows", "image": "/assets/img/white-goods/Microwave-Windows.jpg" },
+      { "label": "Chimney", "image": "/assets/img/white-goods/Chimney.jpg" }
+    ],
+    "faqs": [
+      { "title": "What is TPRS Glass role in the white goods industry?", "content": "TPRS Glass processes high-performance glass components that combine aesthetics, heat resistance, and durability for leading appliance brands." },
+      { "title": "Which TPRS brands serve the white goods sector?", "content": "Tuffsafe (toughened glass), Ecosafe (insulated energy-efficient glass), Archsafe (curved glass), and Innovink (printed glass)." },
+      { "title": "Why is glass important in white goods?", "content": "It provides safety, functionality, transparency, and visual appeal while withstanding heat, pressure, and chemicals." },
+      { "title": "Where is glass used in ovens and OTGs?", "content": "In front doors, viewing windows, and inner panels to allow users to see food while insulating heat." },
+      { "title": "What type of glass is used for oven doors?", "content": "Tempered (toughened) glass capable of withstanding up to 300°C." }
+    ]
+  }
+}

@@ -1,0 +1,136 @@
+{
+  "prestige-trade-tower": {
+    "title": "Prestige Trade Tower, Bangalore",
+    "url": "/portfolio/prestige-trade-tower/",
+    "category": "Construction",
+    "coverImage": "/assets/img/projects/prestige-trade-tower.jpg",
+    "location": "Bangalore",
+    "description": "A prominent landmark in the core of Bangalore is the Prestige Trade Tower, which is located on Palace Road. This remarkable building, with LEED Gold sustainability certification, has 23 upper floors and a total built-up area of 370,000 square feet, and offers large, modular office spaces that start at 6,320 square feet and have an average floorplate size of 16,677 square feet. Prestige Trade Tower, one of Bangalore's best-known sites, is beloved by prospering businesses and industry executives due to its unmatched access to the city's main transit hubs, the Bangalore Golf Course, and the Bangalore Turf Club.<br><br>A defining feature of Prestige Trade Tower Bangalore is its sophisticated glass façade, engineered by TPRS Glass. As the project's trusted glass solution partner, TPRS Glass supplied and installed high-performance glazing that delivers exceptional energy efficiency, daylight management, and visual appeal. Our advanced toughened and laminated glass not only maximizes thermal comfort and safety for occupants but also underscores the tower's environmental responsibility. With six high-speed lifts, robust security, and two levels of basement parking, Prestige Trade Tower is designed for superior operational efficiency.",
+    "gallery": [],
+    "solutions": ["Toughened Glass", "Laminated Glass"]
+  },
+  "hotel-conrad-bangalore": {
+    "title": "Hotel Conrad, Bangalore",
+    "url": "/portfolio/hotel-conrad-bangalore/",
+    "category": "Construction",
+    "coverImage": "/assets/img/projects/hotel-conrad-bangalore.jpg",
+    "location": "Bangalore",
+    "description": "",
+    "gallery": []
+  },
+  "taj-bengaluru": {
+    "title": "TAJ Bengaluru",
+    "url": "/portfolio/taj-bengaluru/",
+    "category": "Construction",
+    "coverImage": "/assets/img/projects/taj-bengaluru.jpg",
+    "location": "Bengaluru",
+    "description": "",
+    "gallery": []
+  },
+  "vr-mall-chennai": {
+    "title": "VR Mall, Chennai",
+    "url": "/portfolio/vr-mall-chennai/",
+    "category": "Construction",
+    "coverImage": "/assets/img/projects/vr-mall-chennai.jpg",
+    "location": "Chennai",
+    "description": "VR Mall in Anna Nagar stands as one of Chennai's most recognisable lifestyle and cultural destinations. Designed by the architectural firm Broadway Malyan, the building's striking façade draws inspiration from the towering temple Gopurams of Tamil Nadu and the vibrant geometry of the Madras Check.<br><br>To bring this vision to life, TPRS Glass supplied specialised coloured glass solutions processed using its advanced ceramic printing technology. The façade features five distinct colours arranged in varying panel sizes across the North, East, West, and South entrances. These colours were created using TPRS Innovink ceramic screen printing, where each shade is precisely applied and then heat-treated. The ceramic inks fuse permanently into the glass surface, ensuring long-lasting brightness, UV stability, and weather-resistant performance throughout the building's lifespan.<br><br>TPRS Glass's solution not only delivered the desired aesthetic richness but also provided a sustainable, low-maintenance, and environmentally friendly alternative to traditional cladding materials.<br><br>Developed by Virtuous Retail and awarded LEED Gold certification, VR Mall stands today as a contemporary landmark where culture and innovation intersect.",
+    "gallery": [],
+    "solutions": ["TPRS Innovink – Ceramic Screen-Printed Glass"]
+  },
+  "sunway-manor-puducherry": {
+    "title": "Sunway Manor – Puducherry",
+    "url": "/portfolio/sunway-manor-puducherry/",
+    "category": "Projects",
+    "coverImage": "/assets/img/projects/sunway-manor-puducherry.jpg",
+    "location": "Puducherry",
+    "description": "",
+    "gallery": []
+  },
+  "skydome": {
+    "title": "Digitally Printed False Ceiling",
+    "url": "/portfolio/skydome/",
+    "category": "Projects",
+    "coverImage": "/assets/img/projects/skydome.jpg",
+    "description": "",
+    "gallery": []
+  },
+  "regenta-resorts-belagvi": {
+    "title": "Regenta Resorts – Belagavi",
+    "url": "/portfolio/regenta-resorts-belagvi/",
+    "category": "Projects",
+    "coverImage": "/assets/img/projects/regenta-resorts-belagvi.jpg",
+    "location": "Belagavi",
+    "description": "",
+    "gallery": []
+  },
+  "oracle": {
+    "title": "Oracle",
+    "url": "/portfolio/oracle/",
+    "category": "Projects",
+    "coverImage": "/assets/img/projects/oracle.jpg",
+    "description": "",
+    "gallery": []
+  },
+  "netapp-bengaluru": {
+    "title": "NetApp – Bengaluru",
+    "url": "/portfolio/netapp-bengaluru/",
+    "category": "Projects",
+    "coverImage": "/assets/img/projects/netapp-bengaluru.jpg",
+    "location": "Bengaluru",
+    "description": "",
+    "gallery": []
+  },
+  "kessaku": {
+    "title": "Kessaku",
+    "url": "/portfolio/kessaku/",
+    "category": "Projects",
+    "coverImage": "/assets/img/projects/kessaku.jpg",
+    "description": "",
+    "gallery": []
+  },
+  "kalyan-silks-ernakulam": {
+    "title": "Kalyan Silks – Ernakulam",
+    "url": "/portfolio/kalyan-silks-ernakulam/",
+    "category": "Projects",
+    "coverImage": "/assets/img/projects/kalyan-silks-ernakulam.jpg",
+    "location": "Ernakulam",
+    "description": "",
+    "gallery": []
+  },
+  "hotel-leela-palace-chennai": {
+    "title": "Hotel Leela Palace – Chennai",
+    "url": "/portfolio/hotel-leela-palace-chennai/",
+    "category": "Projects",
+    "coverImage": "/assets/img/projects/hotel-leela-palace-chennai.jpg",
+    "location": "Chennai",
+    "description": "",
+    "gallery": []
+  },
+  "hotel-le-temps-trichy": {
+    "title": "Hotel Le Temps – Trichy",
+    "url": "/portfolio/hotel-le-temps-trichy/",
+    "category": "Projects",
+    "coverImage": "/assets/img/projects/hotel-le-temps-trichy.jpg",
+    "location": "Trichy",
+    "description": "",
+    "gallery": []
+  },
+  "ceebros-residence-chennai": {
+    "title": "Ceebros Residence – Chennai",
+    "url": "/portfolio/ceebros-residence-chennai/",
+    "category": "Projects",
+    "coverImage": "/assets/img/projects/ceebros-residence-chennai.jpg",
+    "location": "Chennai",
+    "description": "",
+    "gallery": []
+  },
+  "athithi-puducherry": {
+    "title": "Athithi – Puducherry",
+    "url": "/portfolio/athithi-puducherry/",
+    "category": "Projects",
+    "coverImage": "/assets/img/projects/athithi-puducherry.jpg",
+    "location": "Puducherry",
+    "description": "",
+    "gallery": []
+  }
+}

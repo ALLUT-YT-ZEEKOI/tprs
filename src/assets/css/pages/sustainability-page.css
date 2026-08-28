@@ -1,0 +1,54 @@
+.sustain-stats {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 32px;
+  max-width: 500px;
+  text-align: center;
+}
+
+.sustain-stat__value {
+  font-size: clamp(2rem, 1.6rem + 1.6vw, 3rem);
+  font-weight: var(--fw-bold);
+  color: var(--color-navy);
+}
+
+.sustain-stat__label {
+  color: var(--color-text);
+  margin-top: 4px;
+}
+
+.sustain-initiatives {
+  display: grid;
+  gap: 32px;
+}
+
+@media (min-width: 768px) {
+  .sustain-initiatives {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+.sustain-initiative {
+  padding: 28px;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-lg);
+}
+
+.sustain-initiative p {
+  color: var(--color-text);
+  margin-top: 12px;
+}
+
+.sustain-initiative__quote {
+  font-style: italic;
+  color: var(--color-navy);
+  margin-top: 16px !important;
+}
+
+.sustain-pullquote {
+  font-size: var(--fs-h3);
+  text-align: center;
+  color: var(--color-text-dark);
+  max-width: 30ch;
+  margin-inline: auto;
+}

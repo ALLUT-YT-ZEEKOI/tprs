@@ -1,0 +1,523 @@
+{
+  "tprs-tuffsafe": {
+    "name": "TPRS Tuffsafe",
+    "url": "/tprs-tuffsafe/",
+    "subtitle": "Thermally Treated Glass for Strength and Safety",
+    "heroImage": "/assets/img/solutions/TPRS-TuffSafe.jpg",
+    "_brochure_NOTE": "The live site's hero has a 'Download Brochure' text layer with no actual href/file anywhere in source — it's non-functional on tprsglass.com right now. Pointing it at /catalogue/ (the real downloadable-catalogues page) instead of a dead link; swap in a real per-solution PDF if you have one.",
+    "brochure": "/catalogue/",
+    "intro": "TPRS Tuffsafe is a range of thermally treated glass created to provide enhanced strength and safety for a broad spectrum of use cases. It is classified into two types: heat-strengthened glass, which is far more resistant to impact stress and temperature fluctuations, and toughened glass, which is meant to be exceptionally durable and, if crushed, fragments shatter into small, harmless shards, thus maximizing safety. With TPRS Tuffsafe, you get reliable, high-performance glass that combines durability and safety.",
+    "highlights": [
+      {
+        "title": "Toughened Glass",
+        "content": "Heated and then cooled very suddenly and rapidly using powerful air jets. This \"shock\" freezes the outer surface instantly while the core cools later, creating immense tension. This is what gives it 4-5x strength and causes it to shatter into tiny harmless crumbs."
+      },
+      {
+        "title": "Heat-Strengthened Glass",
+        "content": "Heated and then cooled gradually. It is not just left in normal temperature; it is still forced-cooled, just much gentler. The slower cooling creates less tension. It is approx 2x stronger than normal glass. Because the tension isn't as high, if it breaks, it forms large shards."
+      },
+      {
+        "title": "Bevelling",
+        "content": "Precision double edge shaping with advanced bevelling machines to deliver clean, consistent angles for a premium look."
+      },
+      {
+        "title": "Polishing",
+        "content": "High-grade automated polishing machines ensure flawless, glossy edges with unmatched clarity and finish."
+      },
+      {
+        "title": "Drilling",
+        "content": "CNC-controlled drilling provides accurate, chip-free holes with smooth edges for fittings and fixtures."
+      },
+      {
+        "title": "Cutouts with waterjet",
+        "content": "State-of-the-art waterjet technology enables intricate, stress-free cutouts with superior edge quality."
+      },
+      {
+        "title": "Heat Soaking Process",
+        "content": "Spontaneous breaking of glass in facades — this is due to Nickel Sulfide (NiS) inclusions in the glass. To avoid this, there is a recognized process called the Heat Soaking Process, in which the glass is placed in a heat soaking chamber and the temperature is raised to approximately 290°C (550°F) for a few hours. This process accelerates the expansion of Nickel Sulfide (NiS) inclusions, causing any glass containing these inclusions to shatter within the chamber. This reduces the likelihood of the glass breaking unexpectedly after installation."
+      }
+    ],
+    "specs": [
+      {
+        "title": "Glass Thickness",
+        "content": "4mm-19mm"
+      },
+      {
+        "title": "Dimensions",
+        "content": "Minimum: 50 mm X 50 mm<br>Maximum: 2440 mm X 4500 mm"
+      },
+      {
+        "title": "Process Type",
+        "content": "Heat-treated at high temperatures and rapidly cooled to produce toughened (tempered) glass."
+      },
+      {
+        "title": "Glass types",
+        "content": "Available in Clear, extra clear, tinted, solar-control coated, low-E coated variants."
+      }
+    ],
+    "faqs": [
+      {
+        "title": "What is TPRS Glass known for in the glass processing industry?",
+        "content": "TPRS Glass is a leading glass processing company in India, specializing in toughened glass, heat-strengthened glass, laminated glass, curved glass, and architectural glazing solutions."
+      },
+      {
+        "title": "What does the brand TPRS Tuffsafe represent?",
+        "content": "TPRS Tuffsafe is one of the key solutions offered by TPRS Glass, specializing in high-performance toughened and heat-strengthened safety glass designed for both residential and commercial applications."
+      },
+      {
+        "title": "What is toughened glass?",
+        "content": "Toughened glass (also known as tempered glass) is a type of safety glass processed by controlled thermal treatments to increase strength and resistance."
+      },
+      {
+        "title": "What industries does TPRS Glass serve?",
+        "content": "TPRS Glass serves the Architectural, Automotive, Locomotive, Vertical Mobility, Earthmovers, Refrigeration, and industrial sectors with durable and aesthetic glass solutions."
+      },
+      {
+        "title": "What makes TPRS Tuffsafe glass different from ordinary glass?",
+        "content": "TPRS Tuffsafe glass undergoes controlled heat treatment, making it 4–5 times stronger than normal glass and highly resistant to thermal stress and impact."
+      },
+      {
+        "title": "What is heat-strengthened glass?",
+        "content": "Heat-strengthened glass (HS glass) is produced by heating and slowly cooling glass to increase its strength, making it about twice as strong as annealed glass while retaining good clarity."
+      }
+    ]
+  },
+  "tprs-lamisafe": {
+    "name": "TPRS Lamisafe",
+    "url": "/tprs-lamisafe/",
+    "subtitle": "Laminated Glass for Impact Resistance and Durability",
+    "heroImage": "/assets/img/solutions/TPRS-Lamisafe.jpg",
+    "brochure": "/catalogue/",
+    "intro": "TPRS Lamisafe is a QNL-certified solution with high-performance laminated glass for strength, safety, and versatility. Our advanced lamination capabilities include utilizing PVB, SGP, or EVA interlayers in double or multi-layer formats to meet various structural and aesthetic demands. TPRS Lamisafe features upgraded technology, which includes dust-free clean rooms and automated interlayer processing, ensuring outstanding quality and clarity.",
+    "highlights": [
+      {
+        "title": "Mesh Lamination",
+        "content": "Enhancing the ornamental and functional outlook, these panes of glasses laminated with finely woven materials provide you a wide variety of design choices. Your choice can be tailored to the colors, designs, patterns, textures, levels of light transmission required etc. This also helps you save floor space and keep your space safe and low maintenance by avoiding curtains."
+      },
+      {
+        "title": "Step Lamination",
+        "content": "Designed for seamless coverage with flexibility for openings and overlaps."
+      },
+      {
+        "title": "Wizard Glass",
+        "content": "Smart lamination that switches between transparency and privacy instantly."
+      },
+      {
+        "title": "Printed Lamination",
+        "content": "Combines durability with decorative or functional printed designs."
+      },
+      {
+        "title": "Laminated DGU",
+        "content": "Double-glazed lamination delivers superior sound insulation and weather resistance."
+      },
+      {
+        "title": "Multi-Lamination",
+        "content": "Multiple interlayers enhance strength, safety, and structural performance"
+      },
+      {
+        "title": "Color Lamination",
+        "content": "Colored interlayers create vibrant, durable glass with safety and expressive design."
+      },
+      {
+        "title": "Fire-rated Glass",
+        "content": "Transparency that resists the heat. Fire-rated Glass from TPRS offers advanced protection without compromising visibility or design. Engineered with E, EW, and EI classifications, it ensures integrity, smoke resistance, and thermal insulation for 30 to 120 minutes. Built for modern architectural safety standards, it delivers reliable fire resistance while maintaining aesthetic transparency. It also safeguards people, property, and performance in every environment."
+      },
+      {
+        "title": "Special Interlayer Glass",
+        "content": "Innovative textures and finishes that enhance any space. The Special Interlayer Glass collection from TPRS blends artistry with functionality, offering designs like waves, ripples, and subtle stripes that enhance visual appeal and sophistication. Each glass features unique textures and luminous finishes, creating depth and elegance. With its wide range of aesthetic choices and premium finish, Signature Collection Glass adds a refined, modern touch to every environment."
+      }
+    ],
+    "specs": [
+      {
+        "title": "Glass Thickness",
+        "content": "Starts from 8.38 mm"
+      },
+      {
+        "title": "Dimensions",
+        "content": "Minimum: 300 mm x 450 mm<br>Maximum: 2300 mm × 4500 mm"
+      },
+      {
+        "title": "Process Type",
+        "content": "Horizontally nip-rolled or vacuum-processed, followed by controlled autoclaving."
+      },
+      {
+        "title": "Glass types",
+        "content": "Available in clear, extra-clear, tinted, solar-control coated, and low-E coated variants."
+      }
+    ],
+    "faqs": [
+      {
+        "title": "What is TPRS Lamisafe?",
+        "content": "TPRS Lamisafe is a laminated safety glass solution by TPRS Glass, engineered for enhanced strength, safety, and aesthetic appeal."
+      },
+      {
+        "title": "How does TPRS Lamisafe differ from normal glass?",
+        "content": "Unlike standard glass, Lamisafe consists of two or more glass layers bonded with PVB, EVA, or SGP interlayers, providing impact resistance and shatter protection."
+      },
+      {
+        "title": "What certifications does TPRS Lamisafe glass meet?",
+        "content": "TPRS Lamisafe complies with IS 2553 Part 1 & 2, CE, E-Mark, DOT, and QNL standards for safety, quality, and performance."
+      },
+      {
+        "title": "What are the available dimensions for TPRS Lamisafe glass?",
+        "content": "Minimum: 300 mm x 450 mm, Maximum: 2300 mm x 4700 mm."
+      },
+      {
+        "title": "What process is used to process TPRS Lamisafe glass?",
+        "content": "TPRS Lamisafe glass is horizontally nip-rolled or vacuum-processed, followed by controlled autoclaving for precision bonding."
+      }
+    ]
+  },
+  "tprs-innovink": {
+    "name": "TPRS Innovink",
+    "url": "/tprs-innovink/",
+    "subtitle": "Printed Glass for Functional and Aesthetic Appeal",
+    "heroImage": "/assets/img/solutions/TPRS-Innovink.jpg",
+    "brochure": "/catalogue/",
+    "intro": "TPRS Innovink turns glass into a medium of expression by combining decorative design and functional performance. Innovink uses durable ceramic inks to create precision-printed patterns, textures, and photorealistic graphics, making use of innovative digital and screen printing technologies such as the globally renowned DIP-TECH GPI series. Beyond aesthetics, it adds functional benefits like thermal control, glare reduction, and shade efficiency. With a curated range of eco-conscious inks, TPRS Innovink turns glass into a creative and functional design element.",
+    "highlights": [
+      {
+        "title": "Ceramic Digital Printing",
+        "content": "CNC-driven digital printing brings photorealistic images, vectors, and art onto glass with heat-processed durability."
+      },
+      {
+        "title": "Ceramic Screen Printing",
+        "content": "Single-color impressions are applied through screens and toughened for lasting, durable designs."
+      },
+      {
+        "title": "Innovink Aura - UV Printing",
+        "content": "High-resolution UV printing delivers vibrant, dynamic visuals ideal for modern interior applications."
+      },
+      {
+        "title": "Innovink Lacquers",
+        "content": "Back-painted lacquered glass offers sleek finishes, perfect for wall paneling and cabinet shutters."
+      }
+    ],
+    "specs": [
+      {
+        "title": "Glass Thickness",
+        "content": "4mm"
+      },
+      {
+        "title": "Maximum size for digital printing",
+        "content": "2400 mm x 3800 mm"
+      },
+      {
+        "title": "Maximum size for screen printing",
+        "content": "2400 mm x 3800 mm"
+      },
+      {
+        "title": "Maximum size for UV printing",
+        "content": "1275 mm x 2500 mm"
+      },
+      {
+        "title": "Process Type for ceramic Digital Printing and Ceramic Screen Printing",
+        "content": "High-resolution digital images or ceramic frit patterns are directly printed onto glass and then permanently fused by heat treatment."
+      },
+      {
+        "title": "Process Type for UV printing",
+        "content": "High-resolution UV inks are directly printed onto glass and instantly cured by ultraviolet light."
+      },
+      {
+        "title": "Glass Options",
+        "content": "Clear, extra clear, tinted, coated glass (based on requirement)"
+      }
+    ],
+    "faqs": [
+      {
+        "title": "What is TPRS Innovink?",
+        "content": "TPRS Innovink is an advanced glass printing technology that combines ceramic digital printing, ceramic screen printing, UV printing, and lacquer coating for both functional and decorative applications."
+      },
+      {
+        "title": "What makes TPRS Innovink unique?",
+        "content": "It fuses photorealistic design, energy efficiency, and lasting durability by embedding ceramic inks into glass at temperatures up to 700°C, creating permanent and vibrant surfaces."
+      },
+      {
+        "title": "What equipment is used in TPRS Innovink printing?",
+        "content": "TPRS Innovink uses DIP-TECH GPI Series printers with high-performance ceramic ink systems, ensuring world-class precision, color depth, and durability."
+      },
+      {
+        "title": "What is the difference between ceramic and UV printing?",
+        "content": "Ceramic printing uses heat-fused inks that create a durable, weather-resistant finish suitable for long-term use. UV printing delivers vivid colour and a smooth finish, making it best suited for visually rich indoor applications."
+      },
+      {
+        "title": "What is TPRS Innovink Lacquered Glass?",
+        "content": "Back-painted glass with a sleek finish for wardrobes, wall panels, and kitchens."
+      }
+    ]
+  },
+  "tprs-ecosafe-2": {
+    "name": "TPRS Ecosafe",
+    "url": "/tprs-ecosafe-2/",
+    "subtitle": "Insulated Glass for Energy Efficiency and Thermal Comfort",
+    "heroImage": "/assets/img/solutions/TPRS-Ecosafe.jpg",
+    "brochure": "/catalogue/",
+    "intro": "TPRS Ecosafe is a DOWSIL Quality Bond Certified solution from TPRS Glass, offering energy-efficient insulated glass you can count on. TPRS uses high-performance low-E glass to deliver IGUs that cut heat, reduce glare, and help save on electricity. These Insulated Glazing Units not only improve indoor comfort but also come in a wide range of custom options, including Built-in Blinds, Georgian Bars, LED Accents, Curved IGU, Triple Glazed IGU, and Printed IGU, and Laminated IGUs.",
+    "highlights": [
+      {
+        "title": "IGU with Blinds",
+        "content": "Integrated manual or remote-controlled blinds provide on-demand privacy and thermal comfort."
+      },
+      {
+        "title": "IGU with Georgian Bars",
+        "content": "Built-in bars recreate the classic Georgian architectural grid within modern glazing."
+      },
+      {
+        "title": "IGU with LED",
+        "content": "Triple-layered IGU with LEDs delivers dynamic branding/signage litup along with insulation benefits."
+      },
+      {
+        "title": "Curved IGU",
+        "content": "Symmetrically curved units create panoramic views while maintaining insulation performance."
+      },
+      {
+        "title": "Triple Glazing Unit",
+        "content": "Three-layer construction offers superior weather insulation for advanced building needs."
+      },
+      {
+        "title": "Printed IGU",
+        "content": "Custom printing within IGUs combines creativity with functional thermal and acoustic benefits."
+      },
+      {
+        "title": "Laminated IGU",
+        "content": "Enhanced glazing fuses lamination with IGU for added soundproofing and weather resistance."
+      },
+      {
+        "title": "IGU with Sleeves",
+        "content": "Engineered sleeves enable secure bolted systems while ensuring seamless insulation."
+      }
+    ],
+    "specs": [
+      {
+        "title": "Glass Thickness",
+        "content": "Starts from 15mm"
+      },
+      {
+        "title": "Dimensions",
+        "content": "Minimum: 300 mm x 300 mm<br>Maximum: 2500 mm x 4000 mm"
+      },
+      {
+        "title": "Process type",
+        "content": "Two or more glass panes sealed with an inert gas cavity and a warm-edge spacer filled with dessicant."
+      },
+      {
+        "title": "Glass Options",
+        "content": "Clear, Extra Clear, Tinted, Coated Glass, Low-E Coated."
+      }
+    ],
+    "faqs": [
+      {
+        "title": "What is TPRS Ecosafe Glass?",
+        "content": "TPRS Ecosafe Glass is a high-performance insulated glass unit (IGU) engineered for superior thermal insulation, energy efficiency, and acoustic comfort in high-rise buildings and modern façades."
+      },
+      {
+        "title": "Who manufactures TPRS Ecosafe Glass?",
+        "content": "It is exclusively processed by TPRS Glass, the only processor in India to hold Dowsil Quality Bond certification for both Insulating Glazing and Structural Glazing, ensuring international-grade sealing and durability."
+      },
+      {
+        "title": "What is the purpose of TPRS Ecosafe Glass?",
+        "content": "To provide thermal insulation, energy savings, and soundproofing for commercial, residential, and institutional buildings."
+      },
+      {
+        "title": "How is TPRS Ecosafe Glass made?",
+        "content": "Each unit has two or more glass panes separated by a spacer filled with desiccant and sealed using Butyl (primary) and Silicone (secondary) sealants."
+      },
+      {
+        "title": "How does TPRS Ecosafe Glass improve energy efficiency?",
+        "content": "It reflects external heat while maintaining internal temperature balance, reducing HVAC load and overall energy consumption."
+      }
+    ]
+  },
+  "tprs-archsafe": {
+    "name": "TPRS Archsafe",
+    "url": "/tprs-archsafe/",
+    "subtitle": "Curved Glass for Panoromic View and Architectural Expression",
+    "_subtitle_NOTE": "Live-site copy has 'Panoromic' misspelled (should be 'Panoramic') — ported as-is for fidelity to the live source.",
+    "heroImage": "/assets/img/solutions/TPRS-Archsafe.jpg",
+    "brochure": "/catalogue/",
+    "intro": "TPRS Archsafe combines structural performance with sculptural beauty, offering curved glass solutions engineered for wind load resistance, thermal efficiency, and modern design integration. Ideal for complex applications such as windshields, facades, and chimneys, Archsafe glass is crafted to endure environmental stress while maintaining clarity and contour. With precision-bent technology and safety-laminated formats, Archsafe redefines what glass can achieve by supporting freedom without compromising strength.",
+    "highlights": [
+      {
+        "title": "Symmetric Bend",
+        "content": "Precision furnace die technology delivers consistent and accurate uniform bends."
+      },
+      {
+        "title": "Asymmetric Bend",
+        "content": "MIDI gravity furnace enables complex multi-dimensional bends with high accuracy."
+      },
+      {
+        "title": "Inhouse 3D Scanner",
+        "content": "Advanced scanning ensures precise template measurement for perfect curvature matching."
+      },
+      {
+        "title": "3D Molding",
+        "content": "Inhouse 3D molding ensures exact die creation for flawless bending to specification."
+      }
+    ],
+    "specs": [
+      {
+        "title": "Glass Thickness",
+        "content": "Starts from 5mm"
+      },
+      {
+        "title": "Minimum size",
+        "content": "300 mm x 300 mm"
+      },
+      {
+        "title": "Maximum size",
+        "content": "2200 mm x 2200 mm"
+      },
+      {
+        "title": "Process Type",
+        "content": "Formed by heating flat glass to high temperatures and shaping it over precision molds to achieve the desired curvature."
+      },
+      {
+        "title": "Radius",
+        "content": "2000mm – 25000mm"
+      }
+    ],
+    "faqs": [
+      {
+        "title": "What is TPRS Archsafe Glass?",
+        "content": "TPRS Archsafe Glass is precision-bent glass produced through controlled heating and molding, delivering elegant curves for Architectural Façades, Automotive Windshields, Aquariums, and White Goods Applications."
+      },
+      {
+        "title": "What makes TPRS Archsafe Glass different from ordinary glass?",
+        "content": "Unlike flat glass, TPRS Archsafe Glass is thermoformed into curves, providing greater aesthetic appeal, structural integrity, and optical clarity."
+      },
+      {
+        "title": "What industries use TPRS Archsafe Glass?",
+        "content": "It's used in Architecture, Automotive, Aquariums, and Home Appliances such as Refrigerators, Displays, and Chimneys."
+      },
+      {
+        "title": "How is TPRS Archsafe Glass made?",
+        "content": "Flat glass is heated to a high temperature and formed over precision-engineered Die to achieve smooth, accurate curvature."
+      },
+      {
+        "title": "Where is TPRS Archsafe Glass used in architecture?",
+        "content": "In office façades, windows, skylights, canopies, staircases, and balustrades for modern, seamless design."
+      }
+    ]
+  },
+  "tprs-wizardglass": {
+    "name": "TPRS Wizardglass",
+    "url": "/tprs-wizardglass/",
+    "subtitle": "Glass for Dynamic Privacy and Dynamic Comfort",
+    "_subtitle_NOTE": "Live-site copy repeats 'Dynamic' in both halves of the subtitle ('Dynamic Privacy ... Dynamic Comfort') — ported as-is for fidelity to the live source.",
+    "heroImage": "/assets/img/solutions/TPRS-Wizardglass.jpg",
+    "brochure": "/catalogue/",
+    "intro": "TPRS Wizardglass redefines space with smart electrochromic technology that shifts from transparent to opaque at the touch of a button. Ideal for creating seamless comfort without sacrificing privacy, it transforms windows, partitions, and facades into interactive design elements. Wizardglass enhances energy efficiency by controlling glare and solar heat while maintaining a sleek, modern aesthetic. Whether in luxury residences, board rooms, or hospitality spaces, it delivers both visual openness and controlled seclusion. With TPRS Wizardglass, experience the future of intelligent glass.",
+    "highlights": [
+      {
+        "title": "PDLC Laminated Glass",
+        "content": "PDLC Laminated Glass offers instant privacy control by switching between transparent and opaque states while maintaining safety and durability."
+      },
+      {
+        "title": "Retrofit",
+        "content": "Retrofit glass is a regular glass upgraded with a switchable privacy film sticker that turns opaque or clear on demand."
+      }
+    ],
+    "specs": [
+      {
+        "title": "Glass Thickness",
+        "content": "Starts from 11 mm"
+      },
+      {
+        "title": "Dimensions",
+        "content": "Minimum: 200 mm x 200 mm<br>Maximum: 1900 mm x 3700 mm"
+      },
+      {
+        "title": "Energy Consumption",
+        "content": "3w/sqm"
+      },
+      {
+        "title": "Switching Time",
+        "content": "Off to On – 10ms<br>On to Off – 150ms"
+      },
+      {
+        "title": "UV Resistance",
+        "content": "99% UV Resistance"
+      },
+      {
+        "title": "Process Type",
+        "content": "Switchable glass is made by embedding a liquid crystal film between glass panes, sealed with conductive coatings to enable electric-controlled transparency."
+      }
+    ],
+    "faqs": [
+      {
+        "title": "What is Wizardglass (Switchable Glass)?",
+        "content": "Wizardglass is TPRS's innovative switchable glass technology using Polymer Dispersed Liquid Crystal (PDLC) that allows instant control over transparency. The glass switches from clear to opaque with electrical activation, providing on-demand privacy and light control."
+      },
+      {
+        "title": "How does TPRS Wizardglass work?",
+        "content": "When an electric current (35–70 VAC) passes through the PDLC film, the liquid crystals align, making the glass transparent. When switched off, the crystals scatter light, turning the glass opaque."
+      },
+      {
+        "title": "What is the difference between PDLC laminated glass and retrofit film?",
+        "content": "Laminated glass integrates the PDLC film between two glass layers during manufacturing, offering durability and safety. Retrofit uses a film sticker applied on existing glass, suitable for quick upgrades."
+      },
+      {
+        "title": "What are the available size ranges?",
+        "content": "Minimum: 200 mm × 200 mm<br>Maximum: 1900 mm × 3700 mm"
+      },
+      {
+        "title": "What voltage does it require to operate?",
+        "content": "It operates on a low-voltage AC supply of 35–70 VAC via a dedicated controller."
+      }
+    ]
+  },
+  "tprs-winsafe": {
+    "name": "TPRS Winsafe",
+    "url": "/tprs-winsafe/",
+    "subtitle": "Safeguarding spaces with precision engineering and lasting reliability",
+    "heroImage": "/assets/img/solutions/TPRS-Winsafe.jpg",
+    "brochure": "/catalogue/",
+    "intro": "TPRS Winsafe frames are built with a robust aluminum profile, ensuring both strength and a sleek appearance. The manufacturing process utilizes a hydraulic press for precise metal bending and a CNC milling machine to accurately cut and shape each component. Advanced TIG (Tungsten Inert Gas) welding techniques are employed for seamless and durable joints. For enhanced protection and performance, EPDM (Ethylene Propylene Diene Rubber) is used, providing reliable weatherproofing, vibration dampening, and UV resistance.",
+    "highlights": [
+      {
+        "title": "Sliding Frames",
+        "content": "Smooth operable sliding ensured by precise fabrication and EPDM sealing for comfort and durability."
+      },
+      {
+        "title": "Fixed Frames",
+        "content": "Non-operable frames engineered for maximum visibility while maintaining structural reliability."
+      },
+      {
+        "title": "Regular Frames (AC and Non-AC)",
+        "content": "Standard framed windows engineered for both air-conditioned and non-AC buses, balancing ventilation, safety, and aesthetics."
+      }
+    ],
+    "specs": [
+      {
+        "title": "Maximum Size",
+        "content": "1311 mm x 1418 mm"
+      },
+      {
+        "title": "Process type",
+        "content": "Window frames are fabricated by cutting and machining profiles, assembling them with joints and gaskets, and glazing glass with sealants to achieve a secure, functional, and long-lasting finish."
+      }
+    ],
+    "faqs": [
+      {
+        "title": "What are TPRS Winsafe window frames?",
+        "content": "TPRS Winsafe window frames are precision-engineered aluminium frames designed for buses and trains, offering strength, durability, and smooth operation."
+      },
+      {
+        "title": "What materials are used in TPRS Winsafe window frames?",
+        "content": "We use high-grade aluminium profiles, EPDM rubber sealing, precision-machined components, and high-quality glazing materials."
+      },
+      {
+        "title": "What is the maximum size available for your window frames?",
+        "content": "The maximum manufacturing size is 1311 mm x 1418 mm."
+      },
+      {
+        "title": "Do you provide sliding window frames for buses and trains?",
+        "content": "Yes, we offer smooth operable sliding frames with precise fabrication and EPDM sealing for easy operation and long-term performance."
+      },
+      {
+        "title": "Do you manufacture window frames for AC buses?",
+        "content": "Yes. We offer AC-compatible framed windows engineered to support insulation and reduced air leakage."
+      }
+    ]
+  }
+}
