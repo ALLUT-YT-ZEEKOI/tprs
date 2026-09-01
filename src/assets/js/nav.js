@@ -35,9 +35,29 @@
     navItems.forEach(closeItem);
   }
 
+  function isInsideMenuRegion(item, target) {
+    if (!target || !(target instanceof Node)) return false;
+    const panel = item.querySelector(":scope > .mega-panel");
+    return item.contains(target) || (panel && panel.contains(target));
+  }
+
   navItems.forEach((item) => {
     const trigger = item.querySelector(":scope > .nav-item__trigger");
+    const panel = item.querySelector(":scope > .mega-panel");
     if (!trigger) return;
+
+    let closeTimer = null;
+
+    const scheduleClose = () => {
+      clearTimeout(closeTimer);
+      closeTimer = setTimeout(() => {
+        const active = document.activeElement;
+        const shouldStayOpen = active && isInsideMenuRegion(item, active);
+        if (!item.matches(":hover") && !shouldStayOpen && !(panel && panel.matches(":hover"))) {
+          closeItem(item);
+        }
+      }, 120);
+    };
 
     trigger.addEventListener("click", () => {
       const isOpen = item.hasAttribute("data-open");
@@ -61,8 +81,34 @@
       }
     });
 
-    item.addEventListener("mouseenter", () => openItem(item));
-    item.addEventListener("mouseleave", () => closeItem(item));
+    item.addEventListener("mouseenter", () => {
+      clearTimeout(closeTimer);
+      openItem(item);
+    });
+    item.addEventListener("mouseleave", (event) => {
+      const nextTarget = event.relatedTarget;
+      if (isInsideMenuRegion(item, nextTarget)) return;
+      scheduleClose();
+    });
+
+    item.addEventListener("focusin", () => {
+      clearTimeout(closeTimer);
+      openItem(item);
+    });
+    item.addEventListener("focusout", (event) => {
+      const nextTarget = event.relatedTarget;
+      if (isInsideMenuRegion(item, nextTarget)) return;
+      scheduleClose();
+    });
+
+    if (panel) {
+      panel.addEventListener("mouseenter", () => clearTimeout(closeTimer));
+      panel.addEventListener("mouseleave", (event) => {
+        const nextTarget = event.relatedTarget;
+        if (isInsideMenuRegion(item, nextTarget)) return;
+        scheduleClose();
+      });
+    }
 
     /* swap right-panel preview on hover/focus of a left link */
     const links = item.querySelectorAll("[data-mega-link]");

@@ -65,10 +65,12 @@
 }
 
 .nav-item {
-  position: static;
+  position: relative;
 }
 
 .nav-item__trigger {
+  position: relative;
+  z-index: 2;
   display: flex;
   align-items: center;
   gap: 6px;
@@ -184,6 +186,21 @@
   background: linear-gradient(110deg, rgba(15, 15, 15, 0.97), rgba(15, 15, 15, 0.88)), url("/assets/img/hero/tprs-hero-poster.webp") center / cover;
   box-shadow: 0 16px 40px rgba(0, 0, 0, 0.15);
   border-top: 1px solid rgba(255, 255, 255, 0.16);
+  visibility: hidden;
+  opacity: 0;
+  transform: translateY(10px);
+  transition: opacity var(--dur-base) var(--ease-default), transform var(--dur-base) var(--ease-default), visibility 0s linear var(--dur-base);
+  pointer-events: none;
+}
+
+.nav-item:hover .mega-panel,
+.nav-item:focus-within .mega-panel,
+.nav-item[data-open] .mega-panel {
+  visibility: visible;
+  opacity: 1;
+  transform: translateY(0);
+  pointer-events: auto;
+  transition-delay: 0s;
 }
 
 .mega-panel__inner {
