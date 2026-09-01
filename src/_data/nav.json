@@ -1,6 +1,7 @@
 [
   {
     "label": "TPRS Solutions",
+    "description": "TPRS Glass Offers a wide range of precise and reliable glass solutions engineered for optimal performance, safety, and functionality.",
     "items": [
       { "label": "TPRS Tuffsafe", "url": "/tprs-tuffsafe/", "image": "/assets/img/solutions/TUFFSAFE.png", "description": "TPRS Tuffsafe is a range of thermally treated glass created to provide enhanced strength and safety for a broad spectrum of use cases." },
       { "label": "TPRS Lamisafe", "url": "/tprs-lamisafe/", "image": "/assets/img/solutions/LAMISAFE.png", "description": "TPRS Lamisafe is a QNL-certified solution with high-performance laminated glass for strength, safety, and versatility." },
@@ -13,6 +14,7 @@
   },
   {
     "label": "TPRS for Industry",
+    "description": "Explore specialized glass solutions designed to meet the performance and safety demands of diverse industries.",
     "items": [
       { "label": "Architecture", "url": "/architecture/", "description": "TPRS offers a diverse range of architectural glass solutions renowned for their aesthetic and superior performance." },
       { "label": "Automotive", "url": "/automotive/", "description": "TPRS Glass delivers specialised automotive glass solutions for commercial and passenger vehicles, including buses, trucks, and material handling equipment." },
@@ -27,6 +29,7 @@
   },
   {
     "label": "About TPRS",
+    "description": "Learn more about TPRS Glass, our people, our purpose, and the standards that guide our work.",
     "items": [
       { "label": "About Us", "url": "/about-us/", "description": "To drive positive change for people and the planet through sustainable solutions.", "_NOTE": "This is what's literally live on tprsglass.com right now for the About Us mega-menu panel — it's the Vision & Mission tagline, reused here (looks like a copy-paste slip on the live site, since 'Vision and Mission' below has the same text). Ported as-is for fidelity; flag to the client as a likely fix." },
       { "label": "Careers", "url": "/careers/", "description": "TPRS Glass offers dynamic career opportunities for innovators, creators, and visionaries looking to make a real impact in the glass industry." },
@@ -38,6 +41,7 @@
   },
   {
     "label": "TPRS Seed",
+    "description": "Discover the latest insights, stories, resources, and updates from TPRS Glass.",
     "groups": [
       {
         "label": "Resources",

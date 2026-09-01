@@ -21,6 +21,10 @@
     hidden
   >
     <div class="container mega-panel__inner">
+      <div class="mega-panel__intro">
+        <h2>{{ menu.label }}</h2>
+        <p>{{ menu.description }}</p>
+      </div>
       {% if menu.items %}
         <ul class="mega-panel__list">
           {% for item in menu.items %}

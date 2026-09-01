@@ -12,6 +12,9 @@
       </nav>
 
       <div class="site-header__actions">
+        <button type="button" class="search-toggle" data-search-toggle aria-expanded="false" aria-controls="site-search" aria-label="Open search">
+          <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><circle cx="10.8" cy="10.8" r="6.8"></circle><path d="m16 16 5 5"></path></svg>
+        </button>
         <div class="lang-switch" data-lang-switch>
           <button type="button" class="lang-switch__trigger" aria-expanded="false" aria-controls="lang-switch-list">
             <span class="visually-hidden">Choose language:</span>
@@ -43,3 +46,15 @@
 </header>
 
 {% include "partials/mobile-nav.njk" %}
+
+<div class="site-search" id="site-search" data-site-search hidden>
+  <div class="site-search__backdrop" data-search-close></div>
+  <form class="site-search__form" role="search" action="/blogs/" method="get">
+    <label class="visually-hidden" for="site-search-input">Search TPRS Glass</label>
+    <input id="site-search-input" name="s" type="search" placeholder="Search" autocomplete="off" />
+    <button type="submit" aria-label="Submit search">
+      <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><circle cx="10.8" cy="10.8" r="6.8"></circle><path d="m16 16 5 5"></path></svg>
+    </button>
+    <button type="button" class="site-search__close" data-search-close aria-label="Close search">&times;</button>
+  </form>
+</div>
